@@ -1,0 +1,2052 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>輕食刻度</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sage:#a8c5a0; --sage-light:#c8ddc4; --sage-pale:#e8f0e6;
+  --cream:#f5f0e8; --cream-dark:#ede6d8; --warm-white:#faf8f4;
+  --text-dark:#3a3a35; --text-mid:#6b6b62; --text-light:#9a9a90;
+  --accent:#7aab72; --water-blue:#6baacc; --water-pale:#e8f4fb;
+  --card-shadow:0 2px 16px rgba(100,120,90,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:var(--text-dark);min-height:100vh;overflow-x:hidden;}
+.screen{display:none;min-height:100vh;flex-direction:column;animation:fadeIn .35s ease;}
+.screen.active{display:flex;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── welcome ── */
+#welcome{background:linear-gradient(160deg,var(--sage-pale) 0%,var(--cream) 60%,var(--warm-white) 100%);align-items:center;justify-content:center;text-align:center;padding:40px 32px;position:relative;overflow:hidden;}
+#welcome::before{content:'';position:absolute;top:-80px;right:-80px;width:300px;height:300px;background:radial-gradient(circle,rgba(168,197,160,.25),transparent 70%);border-radius:50%;}
+#welcome::after{content:'';position:absolute;bottom:-60px;left:-60px;width:240px;height:240px;background:radial-gradient(circle,rgba(200,221,196,.3),transparent 70%);border-radius:50%;}
+.logo-mark{width:80px;height:80px;background:linear-gradient(135deg,var(--sage),var(--accent));border-radius:24px;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;box-shadow:0 8px 32px rgba(122,171,114,.3);font-size:36px;}
+.app-title{font-family:'Noto Serif TC',serif;font-size:32px;font-weight:500;letter-spacing:4px;margin-bottom:8px;}
+.app-subtitle{font-size:14px;color:var(--text-mid);letter-spacing:2px;font-weight:300;margin-bottom:48px;}
+.tagline{font-size:15px;color:var(--text-mid);line-height:1.8;margin-bottom:48px;max-width:280px;}
+.btn-primary{width:100%;max-width:280px;padding:16px 32px;background:linear-gradient(135deg,var(--sage),var(--accent));color:white;border:none;border-radius:16px;font-size:16px;font-family:'Noto Sans TC',sans-serif;font-weight:500;letter-spacing:2px;cursor:pointer;transition:all .3s;box-shadow:0 4px 20px rgba(122,171,114,.35);margin-bottom:16px;}
+.btn-primary:hover{transform:translateY(-2px);}
+.btn-secondary{background:transparent;border:1.5px solid var(--sage);color:var(--accent);padding:14px 32px;border-radius:16px;font-size:15px;font-family:'Noto Sans TC',sans-serif;cursor:pointer;width:100%;max-width:280px;transition:all .3s;letter-spacing:1px;}
+.btn-secondary:hover{background:var(--sage-pale);}
+
+/* ── setup ── */
+#setup{background:var(--warm-white);overflow-y:auto;}
+.setup-header{background:linear-gradient(135deg,var(--sage-pale),var(--cream));padding:56px 28px 28px;text-align:center;}
+.setup-header h2{font-family:'Noto Serif TC',serif;font-size:22px;font-weight:500;letter-spacing:2px;margin-bottom:6px;}
+.setup-header p{font-size:13px;color:var(--text-mid);}
+.setup-body{padding:24px 24px 48px;}
+.goal-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:24px;}
+.goal-card{background:white;border:2px solid var(--cream-dark);border-radius:16px;padding:18px 12px;text-align:center;cursor:pointer;transition:all .25s;}
+.goal-card:hover,.goal-card.selected{border-color:var(--accent);background:var(--sage-pale);}
+.goal-card .icon{font-size:26px;margin-bottom:6px;}
+.goal-card .lbl{font-size:13px;font-weight:500;letter-spacing:1px;}
+.form-group{margin-bottom:16px;}
+.form-label{font-size:13px;color:var(--text-mid);letter-spacing:1px;margin-bottom:7px;display:block;}
+.form-input{width:100%;padding:13px 16px;border:1.5px solid var(--cream-dark);border-radius:12px;font-size:15px;font-family:'Noto Sans TC',sans-serif;background:white;color:var(--text-dark);transition:border-color .2s;outline:none;}
+.form-input:focus{border-color:var(--sage);}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.unit-wrap{position:relative;}
+.unit-wrap input{padding-right:42px;}
+.unit{position:absolute;right:13px;top:50%;transform:translateY(-50%);font-size:12px;color:var(--text-light);}
+.divider{font-size:11px;color:var(--text-light);letter-spacing:2px;border-top:1px solid var(--cream-dark);padding-top:18px;margin:4px 0 16px;}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
+.t-title{font-size:13px;color:var(--text-mid);letter-spacing:.5px;}
+.t-hint{font-size:11px;color:var(--text-light);margin-top:2px;}
+.toggle{width:44px;height:24px;background:var(--cream-dark);border-radius:12px;cursor:pointer;position:relative;transition:background .3s;flex-shrink:0;}
+.knob{width:20px;height:20px;background:white;border-radius:50%;position:absolute;top:2px;left:2px;transition:left .3s;box-shadow:0 1px 4px rgba(0,0,0,.15);}
+.opt-field{display:none;margin-bottom:16px;}
+.opt-field.show{display:block;animation:fadeIn .3s;}
+.tip-box{margin-top:8px;padding:10px 14px;background:var(--sage-pale);border-radius:10px;font-size:12px;color:var(--text-mid);line-height:1.6;}
+.optional-group{margin-bottom:18px;}
+
+/* ── bottom nav ── */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:white;border-top:1px solid var(--cream-dark);display:flex;padding:8px 0 20px;z-index:200;}
+.nav-item{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;padding:4px 2px;}
+.nav-icon{font-size:20px;}
+.nav-label{font-size:9px;color:var(--text-light);letter-spacing:.3px;}
+.nav-item.active .nav-label{color:var(--accent);}
+
+/* ── home ── */
+#home{background:var(--warm-white);padding-bottom:80px;}
+.home-scroll{overflow-y:auto;flex:1;}
+.home-header{background:linear-gradient(160deg,var(--sage-pale) 0%,var(--cream) 100%);padding:52px 24px 24px;position:relative;}
+.home-greeting{font-size:13px;color:var(--text-mid);letter-spacing:1px;margin-bottom:4px;}
+.home-name{font-family:'Noto Serif TC',serif;font-size:22px;font-weight:500;letter-spacing:2px;}
+.date-badge{position:absolute;top:52px;right:24px;background:white;border-radius:12px;padding:8px 14px;font-size:12px;color:var(--text-mid);box-shadow:var(--card-shadow);}
+.cal-section{padding:20px 24px 8px;}
+.cal-card{background:white;border-radius:24px;padding:24px 20px;box-shadow:var(--card-shadow);display:flex;align-items:center;gap:20px;margin-bottom:14px;}
+.ring-wrap{position:relative;width:96px;height:96px;flex-shrink:0;}
+.ring-wrap svg{transform:rotate(-90deg);}
+.ring-bg{fill:none;stroke:var(--sage-pale);stroke-width:8;}
+.ring-fill{fill:none;stroke:var(--accent);stroke-width:8;stroke-linecap:round;stroke-dasharray:251.2;stroke-dashoffset:251.2;transition:stroke-dashoffset 1s ease;}
+.ring-txt{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+.ring-cal{font-size:19px;font-weight:500;display:block;}
+.ring-unit{font-size:10px;color:var(--text-light);letter-spacing:1px;}
+.cal-info{flex:1;}
+.cal-lbl{font-size:12px;color:var(--text-light);letter-spacing:1px;margin-bottom:4px;}
+.cal-num{font-size:20px;font-weight:500;margin-bottom:2px;}
+.cal-sub{font-size:12px;color:var(--sage);}
+.macro-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;}
+.macro-card{background:white;border-radius:16px;padding:14px 10px;box-shadow:var(--card-shadow);text-align:center;}
+.macro-name{font-size:11px;color:var(--text-light);letter-spacing:1px;margin-bottom:5px;}
+.macro-val{font-size:17px;font-weight:500;margin-bottom:4px;}
+.mbar{height:4px;background:var(--sage-pale);border-radius:2px;overflow:hidden;}
+.mfill{height:100%;border-radius:2px;}
+.mfill.p{background:#7aab72;} .mfill.c{background:#c5a87a;} .mfill.f{background:#a87aab;}
+
+/* ── water ── */
+.water-reminder{margin:0 24px 14px;background:linear-gradient(135deg,var(--water-pale),#f0f8ff);border-radius:16px;padding:14px 16px;border-left:3px solid var(--water-blue);display:none;align-items:center;gap:12px;animation:fadeIn .4s ease;}
+.reminder-icon{font-size:22px;flex-shrink:0;}
+.reminder-text{flex:1;font-size:13px;color:var(--text-mid);line-height:1.6;}
+.reminder-dismiss{font-size:20px;color:#c8dff0;cursor:pointer;flex-shrink:0;line-height:1;}
+.water-card{background:white;border-radius:20px;padding:18px 20px;box-shadow:var(--card-shadow);margin:0 24px 14px;}
+.water-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+.water-title{font-size:13px;color:var(--text-mid);letter-spacing:1px;font-weight:500;}
+.water-count{font-size:13px;color:var(--water-blue);font-weight:500;}
+.water-track{display:flex;gap:5px;margin-bottom:14px;flex-wrap:wrap;}
+.water-cup{height:36px;border-radius:4px 4px 8px 8px;border:2px solid #c8dff0;background:white;cursor:pointer;transition:all .25s;overflow:hidden;position:relative;flex-shrink:0;}
+.water-cup.filled{border-color:var(--water-blue);}
+.water-cup .fill{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(180deg,#8ec5e0,var(--water-blue));transition:height .4s ease;height:0;}
+.water-cup.filled .fill{height:100%;}
+.water-actions{display:flex;gap:8px;}
+.water-btn{flex:1;padding:10px;border-radius:12px;border:1.5px solid transparent;font-size:13px;font-family:'Noto Sans TC',sans-serif;cursor:pointer;transition:all .2s;letter-spacing:.5px;}
+.water-btn-add{background:linear-gradient(135deg,#8ec5e0,var(--water-blue));color:white;box-shadow:0 3px 12px rgba(107,170,204,.3);}
+.water-btn-add:hover{transform:translateY(-1px);}
+.water-btn-undo{background:white;color:var(--water-blue);border-color:#c8dff0;}
+.water-goal-txt{font-size:11px;color:var(--text-light);text-align:center;margin-top:10px;letter-spacing:.5px;}
+
+/* ── log ── */
+.log-sec{padding:0 24px 8px;}
+.log-sec-title{font-size:13px;color:var(--text-mid);letter-spacing:2px;font-weight:500;margin-bottom:12px;}
+.log-entry{background:white;border-radius:16px;padding:14px 16px;box-shadow:var(--card-shadow);margin-bottom:10px;display:flex;align-items:flex-start;gap:12px;}
+.log-time{font-size:11px;color:var(--text-light);min-width:36px;padding-top:2px;}
+.log-body{flex:1;}
+.log-food{font-size:14px;font-weight:500;margin-bottom:2px;}
+.log-meta{font-size:12px;color:var(--text-light);}
+.log-kcal{font-size:13px;font-weight:500;color:var(--accent);flex-shrink:0;padding-top:2px;}
+.empty-log{background:white;border:1.5px dashed var(--cream-dark);border-radius:16px;padding:24px;text-align:center;}
+.empty-log-txt{font-size:13px;color:var(--text-light);}
+.fab{position:fixed;bottom:84px;right:24px;width:56px;height:56px;background:linear-gradient(135deg,var(--sage),var(--accent));border-radius:18px;border:none;display:flex;align-items:center;justify-content:center;font-size:24px;color:white;box-shadow:0 6px 24px rgba(122,171,114,.4);cursor:pointer;transition:all .3s;z-index:100;}
+.fab:hover{transform:translateY(-3px) scale(1.05);}
+
+/* ── camera ── */
+#camera{background:var(--warm-white);}
+.cam-header{background:linear-gradient(135deg,var(--sage-pale),var(--cream));padding:52px 24px 20px;display:flex;align-items:center;gap:12px;}
+.back-btn{width:36px;height:36px;background:white;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:var(--card-shadow);font-size:18px;border:none;flex-shrink:0;}
+.cam-header h2{font-family:'Noto Serif TC',serif;font-size:18px;font-weight:500;letter-spacing:2px;}
+.cam-body{padding:20px 24px;flex:1;overflow-y:auto;}
+.upload-zone{border:2px dashed var(--sage-light);border-radius:24px;padding:44px 24px;text-align:center;background:var(--sage-pale);cursor:pointer;transition:all .3s;margin-bottom:18px;}
+.upload-zone:hover{border-color:var(--accent);background:#deeeda;}
+.upload-icon{font-size:44px;margin-bottom:10px;}
+.upload-text{font-size:15px;color:var(--text-mid);margin-bottom:5px;}
+.upload-hint{font-size:12px;color:var(--text-light);}
+.loading{display:none;text-align:center;padding:28px;}
+.loading.show{display:block;}
+.spinner{width:38px;height:38px;border:3px solid var(--sage-pale);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px;}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{font-size:13px;color:var(--text-mid);letter-spacing:1px;}
+.result-card{background:white;border-radius:20px;padding:20px;box-shadow:var(--card-shadow);margin-bottom:14px;display:none;}
+.result-card.show{display:block;animation:fadeIn .5s ease;}
+.result-food{font-family:'Noto Serif TC',serif;font-size:17px;margin-bottom:14px;}
+.result-macros{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;}
+.result-macro{text-align:center;}
+.result-macro-val{font-size:17px;font-weight:500;}
+.result-macro-label{font-size:10px;color:var(--text-light);letter-spacing:1px;}
+.ai-msg{background:linear-gradient(135deg,var(--sage-pale),var(--cream));border-radius:14px;padding:14px;font-size:14px;color:var(--text-mid);line-height:1.7;border-left:3px solid var(--sage);}
+.ai-lbl{font-size:11px;color:var(--accent);letter-spacing:1px;font-weight:500;margin-bottom:5px;}
+
+/* ── history ── */
+#history{background:var(--warm-white);padding-bottom:80px;}
+.hist-header{background:linear-gradient(160deg,var(--sage-pale),var(--cream));padding:52px 24px 20px;}
+.hist-header h2{font-family:'Noto Serif TC',serif;font-size:22px;font-weight:500;letter-spacing:2px;margin-bottom:4px;}
+.hist-header p{font-size:13px;color:var(--text-mid);}
+.period-tabs{display:flex;gap:8px;padding:14px 24px 0;}
+.period-tab{flex:1;padding:10px 4px;border:1.5px solid var(--cream-dark);border-radius:12px;font-size:13px;color:var(--text-mid);text-align:center;cursor:pointer;transition:all .2s;background:white;letter-spacing:1px;}
+.period-tab.active{border-color:var(--accent);background:var(--sage-pale);color:var(--accent);font-weight:500;}
+.date-nav{display:flex;align-items:center;gap:8px;padding:12px 24px 0;}
+.dnav-btn{width:36px;height:36px;background:white;border:1.5px solid var(--cream-dark);border-radius:10px;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s;}
+.dnav-btn:hover{border-color:var(--sage);background:var(--sage-pale);}
+.date-lbl{flex:1;text-align:center;font-size:14px;font-weight:500;letter-spacing:1px;}
+.hist-body{padding:14px 24px;}
+.h-summary{background:white;border-radius:20px;padding:18px;box-shadow:var(--card-shadow);margin-bottom:14px;display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.hs-label{font-size:11px;color:var(--text-light);letter-spacing:1px;margin-bottom:3px;}
+.hs-val{font-size:20px;font-weight:500;}
+.hs-unit{font-size:12px;color:var(--text-mid);}
+.bar-section{background:white;border-radius:20px;padding:18px;box-shadow:var(--card-shadow);margin-bottom:14px;}
+.bar-sec-title{font-size:12px;color:var(--text-light);letter-spacing:1px;margin-bottom:14px;}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.bar-row:last-child{margin-bottom:0;}
+.bar-lbl{font-size:12px;color:var(--text-mid);width:32px;text-align:center;flex-shrink:0;}
+.bar-track{flex:1;height:8px;background:var(--sage-pale);border-radius:4px;overflow:hidden;}
+.bar-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--sage),var(--accent));transition:width .8s ease;}
+.bar-val{font-size:11px;color:var(--text-light);width:52px;text-align:right;flex-shrink:0;}
+.ai-tip{background:linear-gradient(135deg,var(--sage-pale),var(--cream));border-radius:20px;padding:18px;box-shadow:var(--card-shadow);border-left:4px solid var(--sage);}
+.ai-tip-title{font-size:12px;color:var(--accent);letter-spacing:1px;font-weight:500;margin-bottom:7px;}
+.ai-tip-text{font-size:14px;color:var(--text-mid);line-height:1.8;}
+/* ── recipe ── */
+.recipe-header{background:linear-gradient(160deg,var(--sage-pale),var(--cream));padding:52px 24px 20px;}
+.recipe-header h2{font-family:'Noto Serif TC',serif;font-size:22px;font-weight:500;letter-spacing:2px;margin-bottom:4px;}
+.recipe-header p{font-size:13px;color:var(--text-mid);}
+.recipe-search{margin:14px 24px 0;position:relative;}
+.recipe-search input{width:100%;padding:12px 16px 12px 40px;border:1.5px solid var(--cream-dark);border-radius:14px;font-size:14px;font-family:'Noto Sans TC',sans-serif;background:white;color:var(--text-dark);outline:none;transition:border-color .2s;}
+.recipe-search input:focus{border-color:var(--sage);}
+.recipe-search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:16px;pointer-events:none;}
+.goal-tabs{display:flex;gap:8px;padding:14px 24px 0;}
+.goal-tab{flex:1;padding:9px 4px;border:1.5px solid var(--cream-dark);border-radius:12px;font-size:12px;color:var(--text-mid);text-align:center;cursor:pointer;transition:all .2s;background:white;letter-spacing:.5px;}
+.goal-tab.active{border-color:var(--accent);background:var(--sage-pale);color:var(--accent);font-weight:500;}
+.recipe-list{padding:14px 24px 80px;}
+.recipe-card{background:white;border-radius:18px;box-shadow:var(--card-shadow);margin-bottom:12px;overflow:hidden;cursor:pointer;transition:all .2s;}
+.recipe-card:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(100,120,90,.12);}
+.recipe-card-top{display:flex;align-items:center;gap:14px;padding:16px;}
+.recipe-emoji{width:52px;height:52px;background:var(--sage-pale);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0;}
+.recipe-info{flex:1;}
+.recipe-name{font-size:15px;font-weight:500;color:var(--text-dark);margin-bottom:4px;}
+.recipe-tags{display:flex;gap:6px;flex-wrap:wrap;}
+.recipe-tag{font-size:10px;color:var(--text-mid);background:var(--cream);border-radius:6px;padding:2px 8px;letter-spacing:.5px;}
+.recipe-tag.goal{background:var(--sage-pale);color:var(--accent);}
+.recipe-kcal{font-size:13px;font-weight:500;color:var(--accent);flex-shrink:0;text-align:right;}
+.recipe-kcal-unit{font-size:10px;color:var(--text-light);font-weight:400;}
+.recipe-macros{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--cream-dark);padding:10px 16px;}
+.recipe-macro{text-align:center;}
+.recipe-macro-val{font-size:13px;font-weight:500;color:var(--text-dark);}
+.recipe-macro-lbl{font-size:10px;color:var(--text-light);letter-spacing:.5px;}
+.rec-recommend-banner{margin:14px 24px 0;background:linear-gradient(135deg,var(--sage-pale),var(--cream));border-radius:16px;padding:14px 16px;border-left:3px solid var(--sage);}
+.rec-banner-title{font-size:11px;color:var(--accent);letter-spacing:1px;font-weight:500;margin-bottom:6px;}
+.rec-banner-text{font-size:13px;color:var(--text-mid);line-height:1.7;}
+
+/* recipe detail modal */
+.recipe-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:600;display:none;align-items:flex-end;}
+.recipe-modal-overlay.show{display:flex;animation:fadeIn .25s ease;}
+.recipe-sheet{background:white;border-radius:24px 24px 0 0;width:100%;max-height:85vh;overflow-y:auto;padding-bottom:32px;}
+.recipe-sheet-top{padding:20px 24px 0;}
+.recipe-sheet-handle{width:36px;height:4px;background:var(--cream-dark);border-radius:2px;margin:0 auto 16px;}
+.recipe-sheet-emoji{font-size:48px;text-align:center;margin-bottom:8px;}
+.recipe-sheet-name{font-family:'Noto Serif TC',serif;font-size:20px;font-weight:500;letter-spacing:2px;text-align:center;margin-bottom:4px;}
+.recipe-sheet-sub{font-size:12px;color:var(--text-light);text-align:center;letter-spacing:.5px;margin-bottom:16px;}
+.recipe-sheet-macros{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px;}
+.rsm{background:var(--sage-pale);border-radius:12px;padding:10px 6px;text-align:center;}
+.rsm-val{font-size:16px;font-weight:500;color:var(--text-dark);}
+.rsm-lbl{font-size:10px;color:var(--text-light);letter-spacing:.5px;}
+.recipe-section-title{font-size:12px;color:var(--text-mid);letter-spacing:1px;font-weight:500;margin:14px 0 8px;}
+.ingredient-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--cream-dark);font-size:14px;}
+.ingredient-row:last-child{border-bottom:none;}
+.ingredient-name{color:var(--text-dark);}
+.ingredient-amt{color:var(--text-light);}
+.step-row{display:flex;gap:12px;margin-bottom:12px;}
+.step-num{width:24px;height:24px;background:var(--sage-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;color:var(--accent);flex-shrink:0;margin-top:2px;}
+.step-text{font-size:14px;color:var(--text-mid);line-height:1.7;flex:1;}
+.recipe-sheet-padding{padding:0 24px;}
+
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:500;display:none;align-items:flex-end;justify-content:center;}
+.modal-overlay.show{display:flex;animation:fadeIn .25s ease;}
+.modal-sheet{background:white;border-radius:24px 24px 0 0;padding:24px 24px 40px;width:100%;max-width:480px;}
+.modal-handle{width:36px;height:4px;background:var(--cream-dark);border-radius:2px;margin:0 auto 20px;}
+.modal-title{font-family:'Noto Serif TC',serif;font-size:17px;font-weight:500;letter-spacing:1px;margin-bottom:4px;}
+.modal-food-name{font-size:13px;color:var(--text-light);margin-bottom:20px;}
+.modal-fields{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;}
+.modal-field label{font-size:11px;color:var(--text-mid);letter-spacing:1px;display:block;margin-bottom:6px;}
+.modal-field .unit-wrap input{font-size:16px;font-weight:500;}
+.modal-actions{display:flex;gap:10px;}
+.modal-btn-save{flex:2;padding:14px;background:linear-gradient(135deg,var(--sage),var(--accent));color:white;border:none;border-radius:14px;font-size:15px;font-family:'Noto Sans TC',sans-serif;font-weight:500;cursor:pointer;letter-spacing:1px;}
+.modal-btn-cancel{flex:1;padding:14px;background:var(--cream);border:none;border-radius:14px;font-size:15px;font-family:'Noto Sans TC',sans-serif;color:var(--text-mid);cursor:pointer;}
+.modal-btn-delete{padding:14px 16px;background:white;border:1.5px solid #f0d0d0;border-radius:14px;font-size:18px;cursor:pointer;}
+.log-entry{cursor:pointer;transition:all .2s;}
+.log-entry:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(100,120,90,.12);}
+.log-entry-macros{display:flex;gap:10px;margin-top:6px;}
+.log-macro-chip{font-size:11px;color:var(--text-light);background:var(--cream);border-radius:6px;padding:2px 8px;}
+
+/* ── profile ── */
+#profile{background:var(--warm-white);padding-bottom:80px;}
+.profile-scroll{overflow-y:auto;flex:1;}
+.profile-hero{background:linear-gradient(160deg,var(--sage-pale) 0%,var(--cream) 100%);padding:52px 24px 28px;text-align:center;}
+.avatar-wrap{position:relative;display:inline-block;margin-bottom:14px;}
+.avatar-circle{width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,var(--sage),var(--accent));display:flex;align-items:center;justify-content:center;font-size:36px;margin:0 auto;border:3px solid white;box-shadow:0 4px 20px rgba(122,171,114,.25);overflow:hidden;cursor:pointer;}
+.avatar-circle img{width:100%;height:100%;object-fit:cover;display:none;}
+.avatar-edit-btn{position:absolute;bottom:0;right:0;width:26px;height:26px;background:var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;cursor:pointer;border:2px solid white;}
+.profile-name{font-family:'Noto Serif TC',serif;font-size:20px;font-weight:500;letter-spacing:2px;margin-bottom:8px;}
+.profile-goal-badge{display:inline-block;background:var(--sage-pale);color:var(--accent);font-size:12px;padding:4px 14px;border-radius:20px;letter-spacing:1px;border:1px solid var(--sage-light);}
+.profile-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--cream-dark);border-radius:16px;overflow:hidden;margin:20px 24px 0;}
+.profile-stat{background:white;padding:14px 8px;text-align:center;}
+.profile-stat-val{font-size:17px;font-weight:500;color:var(--text-dark);margin-bottom:2px;}
+.profile-stat-lbl{font-size:10px;color:var(--text-light);letter-spacing:.5px;}
+.settings-section{padding:16px 24px 0;}
+.settings-title{font-size:11px;color:var(--text-light);letter-spacing:2px;margin-bottom:10px;padding-left:4px;}
+.settings-group{background:white;border-radius:16px;box-shadow:var(--card-shadow);overflow:hidden;margin-bottom:16px;}
+.settings-row{display:flex;align-items:center;gap:14px;padding:15px 16px;border-bottom:1px solid var(--cream-dark);cursor:pointer;transition:background .15s;}
+.settings-row:last-child{border-bottom:none;}
+.settings-row:active{background:var(--sage-pale);}
+.settings-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.settings-label{flex:1;font-size:14px;color:var(--text-dark);}
+.settings-value{font-size:13px;color:var(--text-light);margin-right:4px;}
+.settings-arrow{font-size:14px;color:var(--text-light);}
+.logout-btn{width:calc(100% - 48px);margin:4px 24px 24px;padding:15px;background:white;border:1.5px solid #f0d0d0;border-radius:16px;font-size:15px;font-family:'Noto Sans TC',sans-serif;color:#d06060;cursor:pointer;letter-spacing:1px;}
+.sub-sheet-overlay{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:700;display:none;align-items:flex-end;}
+.sub-sheet-overlay.show{display:flex;animation:fadeIn .25s ease;}
+.sub-sheet{background:white;border-radius:24px 24px 0 0;padding:24px 24px 48px;width:100%;}
+.sub-handle{width:36px;height:4px;background:var(--cream-dark);border-radius:2px;margin:0 auto 20px;}
+.sub-title{font-family:'Noto Serif TC',serif;font-size:17px;font-weight:500;letter-spacing:1px;margin-bottom:20px;}
+.sub-actions{display:flex;gap:10px;margin-top:20px;}
+.sub-save{flex:1;padding:14px;background:linear-gradient(135deg,var(--sage),var(--accent));color:white;border:none;border-radius:14px;font-size:15px;font-family:'Noto Sans TC',sans-serif;font-weight:500;cursor:pointer;}
+.sub-cancel{padding:14px 20px;background:var(--cream);border:none;border-radius:14px;font-size:15px;font-family:'Noto Sans TC',sans-serif;color:var(--text-mid);cursor:pointer;}
+</style>
+</head>
+<body>
+
+<!-- ═══ WELCOME / LOGIN ═══ -->
+<div id="welcome" class="screen active">
+  <div class="logo-mark" style="background:none;box-shadow:none;padding:0;overflow:hidden;">
+    <img src="data:image/png;base64,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" style="width:100%;height:100%;object-fit:cover;border-radius:24px;"/>
+  </div>
+  <div class="app-title" style="font-family:'Noto Serif TC',serif;letter-spacing:4px;">輕食刻度</div>
+  <div class="app-subtitle">Light · Balance · You</div>
+  <p class="tagline">用 AI 記錄每一餐<br>讓飲食管理變得輕盈自然</p>
+
+  <!-- Auth tabs -->
+  <div id="authBox" style="width:100%;max-width:320px;">
+    <div style="display:flex;gap:0;margin-bottom:20px;background:var(--cream-dark);border-radius:12px;padding:3px;">
+      <button onclick="switchAuth('login')" id="tabLogin" style="flex:1;padding:9px;border:none;border-radius:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;cursor:pointer;background:white;color:var(--text-dark);font-weight:500;transition:all .2s;">登入</button>
+      <button onclick="switchAuth('register')" id="tabRegister" style="flex:1;padding:9px;border:none;border-radius:10px;font-family:'Noto Sans TC',sans-serif;font-size:13px;cursor:pointer;background:transparent;color:var(--text-mid);transition:all .2s;">註冊</button>
+    </div>
+
+    <!-- Google login -->
+    <button onclick="loginWithGoogle()" style="width:100%;padding:14px;background:white;border:1.5px solid var(--cream-dark);border-radius:14px;font-family:'Noto Sans TC',sans-serif;font-size:14px;color:var(--text-dark);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:16px;transition:all .2s;" onmouseover="this.style.background='var(--sage-pale)'" onmouseout="this.style.background='white'">
+      <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+      使用 Google 登入
+    </button>
+
+    <!-- Divider -->
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+      <div style="flex:1;height:1px;background:var(--cream-dark);"></div>
+      <span style="font-size:12px;color:var(--text-light);">或用 Email</span>
+      <div style="flex:1;height:1px;background:var(--cream-dark);"></div>
+    </div>
+
+    <!-- Email / password -->
+    <div style="margin-bottom:10px;">
+      <input id="authEmail" type="email" placeholder="電子郵件" class="form-input" style="margin-bottom:10px;"/>
+      <input id="authPassword" type="password" placeholder="密碼（至少 8 位）" class="form-input" style="margin-bottom:4px;"/>
+      <div id="authRegisterExtra" style="display:none;margin-top:10px;">
+        <input id="authName" type="text" placeholder="你的名稱" class="form-input"/>
+      </div>
+    </div>
+
+    <div id="authError" style="font-size:12px;color:#d06060;margin-bottom:10px;display:none;text-align:center;"></div>
+
+    <button id="authSubmitBtn" onclick="submitAuth()" class="btn-primary" style="max-width:100%;margin-bottom:12px;">登入</button>
+    <div style="font-size:12px;color:var(--text-light);text-align:center;cursor:pointer;" onclick="switchAuth('register')" id="authSwitchHint">還沒有帳號？<span style="color:var(--accent);">立即註冊</span></div>
+  </div>
+
+  <!-- Phone OTP panel -->
+  <div id="phonePanel" style="display:none;width:100%;max-width:320px;">
+    <div style="margin-bottom:16px;">
+      <div style="font-size:13px;color:var(--text-mid);margin-bottom:8px;">輸入手機號碼</div>
+      <div style="display:flex;gap:8px;">
+        <select id="phoneCountry" class="form-input" style="width:90px;flex-shrink:0;">
+          <option value="+886">🇹🇼 +886</option>
+          <option value="+86">🇨🇳 +86</option>
+          <option value="+1">🇺🇸 +1</option>
+          <option value="+81">🇯🇵 +81</option>
+        </select>
+        <input id="phoneNumber" type="tel" placeholder="912 345 678" class="form-input"/>
+      </div>
+    </div>
+    <button onclick="sendOTP()" class="btn-primary" style="max-width:100%;margin-bottom:10px;">發送驗證碼</button>
+
+    <div id="otpPanel" style="display:none;">
+      <div style="font-size:13px;color:var(--text-mid);margin-bottom:8px;">輸入收到的 6 位驗證碼</div>
+      <input id="otpCode" type="number" placeholder="123456" class="form-input" style="margin-bottom:10px;letter-spacing:4px;font-size:18px;text-align:center;"/>
+      <button onclick="verifyOTP()" class="btn-primary" style="max-width:100%;">驗證並登入</button>
+    </div>
+
+    <div style="font-size:12px;color:var(--accent);text-align:center;margin-top:12px;cursor:pointer;" onclick="showEmailLogin()">← 返回 Email 登入</div>
+  </div>
+
+  <!-- Loading state -->
+  <div id="authLoading" style="display:none;text-align:center;">
+    <div class="spinner" style="margin:0 auto 12px;"></div>
+    <div style="font-size:13px;color:var(--text-mid);">登入中⋯</div>
+  </div>
+</div>
+
+<!-- ═══ SETUP ═══ -->
+<div id="setup" class="screen">
+  <div class="setup-header">
+    <h2>設定你的目標</h2>
+    <p>幫助我們為你計算每日所需熱量</p>
+  </div>
+  <div class="setup-body">
+    <p class="form-label" style="margin-bottom:12px;">我的目標是</p>
+    <div class="goal-cards">
+      <div class="goal-card selected" onclick="selectGoal(this)"><div class="icon">🔥</div><div class="lbl">減脂瘦身</div></div>
+      <div class="goal-card" onclick="selectGoal(this)"><div class="icon">💪</div><div class="lbl">增肌健身</div></div>
+      <div class="goal-card" onclick="selectGoal(this)"><div class="icon">⚖️</div><div class="lbl">維持體重</div></div>
+      <div class="goal-card" onclick="selectGoal(this)"><div class="icon">🌱</div><div class="lbl">健康飲食</div></div>
+    </div>
+
+    <div class="divider">基本資料</div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">性別</label>
+        <select class="form-input" id="inputGender"><option value="f">女性</option><option value="m">男性</option></select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">年齡</label>
+        <input class="form-input" type="number" placeholder="28" id="inputAge"/>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">身高</label>
+        <div class="unit-wrap"><input class="form-input" type="number" placeholder="163" id="inputHeight"/><span class="unit">cm</span></div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">體重</label>
+        <div class="unit-wrap"><input class="form-input" type="number" placeholder="55" id="inputWeight"/><span class="unit">kg</span></div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">活動量</label>
+      <select class="form-input" id="inputActivity">
+        <option value="1.0">久坐（辦公室工作）</option>
+        <option value="1.1">輕度（每週運動 1-3 天）</option>
+        <option value="1.2">中度（每週運動 3-5 天）</option>
+        <option value="1.4">高度（每天運動）</option>
+      </select>
+    </div>
+
+    <div class="divider">進階資料 <span style="font-size:11px;font-weight:300;">（選填，提升計算精準度）</span></div>
+
+    <div class="optional-group">
+      <div class="toggle-row">
+        <div><div class="t-title">基礎代謝率（BMR）</div><div class="t-hint">已知數值可填入</div></div>
+        <div class="toggle" id="bmrT" onclick="tog('bmr')"><div class="knob" id="bmrK"></div></div>
+      </div>
+      <div class="opt-field" id="bmrF">
+        <div class="unit-wrap"><input class="form-input" type="number" placeholder="例：1350"/><span class="unit">kcal</span></div>
+        <div class="tip-box">💡 不知道 BMR？沒關係，我們會根據身高體重自動估算</div>
+      </div>
+    </div>
+
+    <div class="optional-group">
+      <div class="toggle-row">
+        <div><div class="t-title">肌肉量</div><div class="t-hint">體組成分析數據</div></div>
+        <div class="toggle" id="muscT" onclick="tog('musc')"><div class="knob" id="muscK"></div></div>
+      </div>
+      <div class="opt-field" id="muscF">
+        <div class="unit-wrap"><input class="form-input" type="number" placeholder="例：38.5"/><span class="unit">kg</span></div>
+      </div>
+    </div>
+
+    <div class="optional-group">
+      <div class="toggle-row">
+        <div><div class="t-title">體脂肪率</div><div class="t-hint">體組成分析數據</div></div>
+        <div class="toggle" id="fatT" onclick="tog('fat')"><div class="knob" id="fatK"></div></div>
+      </div>
+      <div class="opt-field" id="fatF">
+        <div class="unit-wrap"><input class="form-input" type="number" placeholder="例：22"/><span class="unit">%</span></div>
+      </div>
+    </div>
+
+    <button class="btn-primary" style="max-width:100%;margin-top:8px;" onclick="startApp()">開始記錄 →</button>
+  </div>
+</div>
+
+<!-- ═══ HOME ═══ -->
+<div id="home" class="screen">
+  <div class="home-scroll">
+    <div class="home-header">
+      <div class="home-greeting">今天，</div>
+      <div class="home-name">開始記錄第一餐吧</div>
+      <div class="date-badge" id="todayDate"></div>
+    </div>
+
+    <div class="cal-section">
+      <div class="cal-card">
+        <div class="ring-wrap">
+          <svg width="96" height="96" viewBox="0 0 100 100">
+            <circle class="ring-bg" cx="50" cy="50" r="40"/>
+            <circle class="ring-fill" cx="50" cy="50" r="40" id="calorieRing"/>
+          </svg>
+          <div class="ring-txt"><span class="ring-cal" id="ringCal">0</span><span class="ring-unit">kcal</span></div>
+        </div>
+        <div class="cal-info">
+          <div class="cal-lbl">今日已攝取</div>
+          <div class="cal-num" id="totalCal">0 <span style="font-size:13px;color:var(--text-light)">kcal</span></div>
+          <div class="cal-sub" id="calSub">目標 1,500 kcal・剩餘 1,500</div>
+        </div>
+      </div>
+      <div class="macro-row">
+        <div class="macro-card"><div class="macro-name">蛋白質</div><div class="macro-val" id="mp">0g</div><div class="mbar"><div class="mfill p" id="mpBar" style="width:0%"></div></div></div>
+        <div class="macro-card"><div class="macro-name">碳水</div><div class="macro-val" id="mc">0g</div><div class="mbar"><div class="mfill c" id="mcBar" style="width:0%"></div></div></div>
+        <div class="macro-card"><div class="macro-name">脂肪</div><div class="macro-val" id="mf">0g</div><div class="mbar"><div class="mfill f" id="mfBar" style="width:0%"></div></div></div>
+      </div>
+    </div>
+
+    <!-- Water reminder -->
+    <div class="water-reminder" id="waterReminder">
+      <div class="reminder-icon">💧</div>
+      <div class="reminder-text" id="reminderText">距離上次喝水已超過 1 小時，記得補充水分！</div>
+      <div class="reminder-dismiss" onclick="dismissReminder()">×</div>
+    </div>
+
+    <!-- Water card -->
+    <div class="water-card">
+      <div class="water-header">
+        <div class="water-title">💧 今日飲水</div>
+        <div class="water-count" id="waterCount">0 / 8 杯</div>
+      </div>
+      <div class="water-track" id="waterCups"></div>
+      <div class="water-actions">
+        <button class="water-btn water-btn-add" onclick="addWater()">＋ 喝了一杯（250ml）</button>
+        <button class="water-btn water-btn-undo" onclick="undoWater()">↩</button>
+      </div>
+      <div class="water-goal-txt" id="waterGoalTxt">每日目標 2,000ml・已喝 0ml</div>
+    </div>
+
+    <div class="log-sec">
+      <div class="log-sec-title">今日紀錄</div>
+      <div id="logList"><div class="empty-log"><div class="empty-log-txt">📷 拍照後自動導入紀錄</div></div></div>
+    </div>
+  </div>
+
+  <button class="fab" onclick="showScreen('camera')">📷</button>
+  <nav class="bottom-nav">
+    <div class="nav-item active" onclick="showScreen('home')"><div class="nav-icon">🏠</div><div class="nav-label">首頁</div></div>
+    <div class="nav-item" onclick="showScreen('camera')"><div class="nav-icon">📷</div><div class="nav-label">拍照</div></div>
+    <div class="nav-item" onclick="showScreen('recipe')"><div class="nav-icon">📖</div><div class="nav-label">食譜</div></div>
+    <div class="nav-item" onclick="showScreen('history')"><div class="nav-icon">📅</div><div class="nav-label">紀錄</div></div>
+    <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">👤</div><div class="nav-label">我的</div></div>
+  </nav>
+</div>
+
+<!-- ═══ CAMERA ═══ -->
+<div id="camera" class="screen">
+  <div class="cam-header">
+    <button class="back-btn" onclick="showScreen('home')">←</button>
+    <h2>拍照辨識</h2>
+  </div>
+  <div class="cam-body">
+    <!-- Upload zone with real file input -->
+    <div class="upload-zone" id="uploadZone" onclick="document.getElementById('foodImageInput').click()">
+      <input type="file" id="foodImageInput" accept="image/*" capture="environment" style="display:none" onchange="analyzeFood(event)"/>
+      <div id="uploadPreview" style="display:none;margin-bottom:12px;">
+        <img id="previewImg" style="max-width:100%;max-height:200px;border-radius:12px;object-fit:cover;"/>
+      </div>
+      <div id="uploadPrompt">
+        <div class="upload-icon">📸</div>
+        <div class="upload-text">點擊拍下你的餐點</div>
+        <div class="upload-hint">AI 自動辨識食物與營養成分</div>
+      </div>
+    </div>
+    <!-- 測試連線按鈕 -->
+    <button onclick="testWorker()" style="width:100%;padding:12px;background:var(--cream);border:1.5px solid var(--cream-dark);border-radius:12px;font-size:13px;color:var(--text-mid);cursor:pointer;margin-bottom:12px;">
+      🔧 測試 AI 連線
+    </button>
+    <div id="testResult" style="font-size:12px;color:var(--text-mid);text-align:center;margin-bottom:12px;display:none;padding:10px;background:var(--sage-pale);border-radius:10px;"></div>
+    <div class="loading" id="loadingState"><div class="spinner"></div><div class="loading-text" id="loadingText">AI 正在辨識食物⋯</div></div>
+    <div class="result-card" id="resultCard">
+      <div class="result-food" id="resultFoodName">🍱 食物名稱</div>
+      <div class="result-macros">
+        <div class="result-macro"><div class="result-macro-val" id="rKcal">—</div><div class="result-macro-label">kcal</div></div>
+        <div class="result-macro"><div class="result-macro-val" id="rProtein">—</div><div class="result-macro-label">蛋白質</div></div>
+        <div class="result-macro"><div class="result-macro-val" id="rCarbs">—</div><div class="result-macro-label">碳水</div></div>
+        <div class="result-macro"><div class="result-macro-val" id="rFat">—</div><div class="result-macro-label">脂肪</div></div>
+      </div>
+      <div style="font-size:11px;color:var(--text-light);text-align:center;margin-bottom:12px;">數值不準確？點擊「加入紀錄」後可手動修改</div>
+      <div class="ai-msg"><div class="ai-lbl">✨ AI 建議</div><div id="aiAdvice">分析完成後顯示建議</div></div>
+      <button class="btn-primary" style="max-width:100%;margin-top:14px;" onclick="addToLog()">加入今日紀錄 ✓</button>
+      <button style="width:100%;padding:12px;background:transparent;border:none;color:var(--text-light);font-size:13px;cursor:pointer;margin-top:4px;" onclick="resetCamera()">重新拍照</button>
+    </div>
+  </div>
+  <nav class="bottom-nav">
+    <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><div class="nav-label">首頁</div></div>
+    <div class="nav-item active"><div class="nav-icon">📷</div><div class="nav-label">拍照</div></div>
+    <div class="nav-item" onclick="showScreen('recipe')"><div class="nav-icon">📖</div><div class="nav-label">食譜</div></div>
+    <div class="nav-item" onclick="showScreen('history')"><div class="nav-icon">📅</div><div class="nav-label">紀錄</div></div>
+    <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">👤</div><div class="nav-label">我的</div></div>
+  </nav>
+</div>
+
+<!-- ═══ HISTORY ═══ -->
+<div id="history" class="screen">
+  <div style="overflow-y:auto;flex:1;">
+    <div class="hist-header">
+      <h2>飲食紀錄</h2>
+      <p>查看你的歷史資料</p>
+    </div>
+    <div class="period-tabs">
+      <div class="period-tab active" onclick="setPeriod('day',this)">日</div>
+      <div class="period-tab" onclick="setPeriod('week',this)">週</div>
+      <div class="period-tab" onclick="setPeriod('month',this)">月</div>
+    </div>
+    <div class="date-nav">
+      <button class="dnav-btn" onclick="navigate(-1)">‹</button>
+      <div class="date-lbl" id="dateRangeLabel">今天</div>
+      <button class="dnav-btn" onclick="navigate(1)">›</button>
+    </div>
+    <div class="hist-body" id="historyBody"></div>
+  </div>
+  <nav class="bottom-nav">
+    <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><div class="nav-label">首頁</div></div>
+    <div class="nav-item" onclick="showScreen('camera')"><div class="nav-icon">📷</div><div class="nav-label">拍照</div></div>
+    <div class="nav-item" onclick="showScreen('recipe')"><div class="nav-icon">📖</div><div class="nav-label">食譜</div></div>
+    <div class="nav-item active"><div class="nav-icon">📅</div><div class="nav-label">紀錄</div></div>
+    <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">👤</div><div class="nav-label">我的</div></div>
+  </nav>
+</div>
+
+<!-- ═══ RECIPE ═══ -->
+<div id="recipe" class="screen" style="background:var(--warm-white);padding-bottom:80px;">
+  <div style="overflow-y:auto;flex:1;">
+    <div class="recipe-header">
+      <h2>健康食譜</h2>
+      <p>依照你的目標挑選今天的餐點</p>
+    </div>
+    <div class="recipe-search">
+      <span class="recipe-search-icon">🔍</span>
+      <input type="text" placeholder="搜尋食譜名稱⋯" oninput="filterRecipes(this.value)" id="recipeSearch"/>
+    </div>
+    <div class="goal-tabs">
+      <div class="goal-tab active" onclick="setMealType('all',this)">全部</div>
+      <div class="goal-tab" onclick="setMealType('breakfast',this)">早餐</div>
+      <div class="goal-tab" onclick="setMealType('lunch',this)">午餐</div>
+      <div class="goal-tab" onclick="setMealType('dinner',this)">晚餐</div>
+      <div class="goal-tab" onclick="setMealType('snack',this)">點心</div>
+    </div>
+    <div class="rec-recommend-banner">
+      <div class="rec-banner-title">✨ AI 今日推薦</div>
+      <div class="rec-banner-text">今天還剩 640 kcal，推薦你試試「清蒸鱸魚」，高蛋白低卡，非常適合晚餐 🐟</div>
+    </div>
+    <div class="recipe-list" id="recipeList"></div>
+  </div>
+  <nav class="bottom-nav">
+    <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><div class="nav-label">首頁</div></div>
+    <div class="nav-item" onclick="showScreen('camera')"><div class="nav-icon">📷</div><div class="nav-label">拍照</div></div>
+    <div class="nav-item active"><div class="nav-icon">📖</div><div class="nav-label">食譜</div></div>
+    <div class="nav-item" onclick="showScreen('history')"><div class="nav-icon">📅</div><div class="nav-label">紀錄</div></div>
+    <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">👤</div><div class="nav-label">我的</div></div>
+  </nav>
+</div>
+
+<!-- ═══ PROFILE ═══ -->
+<div id="profile" class="screen">
+  <div class="profile-scroll">
+    <div class="profile-hero">
+      <div class="avatar-wrap">
+        <div class="avatar-circle" onclick="triggerAvatarUpload()">
+          <img id="avatarImg"/>
+          <span id="avatarEmoji">🌿</span>
+        </div>
+        <div class="avatar-edit-btn" onclick="triggerAvatarUpload()">✏️</div>
+        <input type="file" id="avatarInput" accept="image/*" style="display:none" onchange="loadAvatar(event)"/>
+      </div>
+      <div class="profile-name" id="profileDisplayName">用戶</div>
+      <div class="profile-goal-badge" id="profileGoalBadge">減脂瘦身</div>
+    </div>
+
+    <div class="profile-stats">
+      <div class="profile-stat"><div class="profile-stat-val" id="pStatWeight">—</div><div class="profile-stat-lbl">體重 kg</div></div>
+      <div class="profile-stat"><div class="profile-stat-val" id="pStatBMI">—</div><div class="profile-stat-lbl">BMI</div></div>
+      <div class="profile-stat"><div class="profile-stat-val" id="pStatGoalCal">1,500</div><div class="profile-stat-lbl">目標 kcal</div></div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-title">帳號資料</div>
+      <div class="settings-group">
+        <div class="settings-row" onclick="openSub('name')">
+          <div class="settings-icon" style="background:#e8f0e6;">👤</div>
+          <div class="settings-label">用戶名稱</div>
+          <div class="settings-value" id="sValName">未設定</div>
+          <div class="settings-arrow">›</div>
+        </div>
+        <div class="settings-row" onclick="openSub('email')">
+          <div class="settings-icon" style="background:#e8f4fb;">✉️</div>
+          <div class="settings-label">電子郵件</div>
+          <div class="settings-value" id="sValEmail">未設定</div>
+          <div class="settings-arrow">›</div>
+        </div>
+        <div class="settings-row" onclick="openSub('password')">
+          <div class="settings-icon" style="background:#f5f0e8;">🔒</div>
+          <div class="settings-label">更改密碼</div>
+          <div class="settings-value">••••••</div>
+          <div class="settings-arrow">›</div>
+        </div>
+      </div>
+
+      <div class="settings-title">身體數據</div>
+      <div class="settings-group">
+        <div class="settings-row" onclick="openSub('body')">
+          <div class="settings-icon" style="background:#e8f0e6;">📏</div>
+          <div class="settings-label">身高 / 體重</div>
+          <div class="settings-value" id="sValBody">未設定</div>
+          <div class="settings-arrow">›</div>
+        </div>
+        <div class="settings-row" onclick="openSub('bodyfat')">
+          <div class="settings-icon" style="background:#f0e8f5;">💪</div>
+          <div class="settings-label">肌肉量 / 體脂率</div>
+          <div class="settings-value" id="sValBodyfat">未設定</div>
+          <div class="settings-arrow">›</div>
+        </div>
+        <div class="settings-row" onclick="openSub('goal')">
+          <div class="settings-icon" style="background:#e8f0e6;">🎯</div>
+          <div class="settings-label">目標設定</div>
+          <div class="settings-value" id="sValGoal">減脂瘦身</div>
+          <div class="settings-arrow">›</div>
+        </div>
+      </div>
+
+      <div class="settings-title">通知設定</div>
+      <div class="settings-group">
+        <div class="settings-row" onclick="openSub('water_remind')">
+          <div class="settings-icon" style="background:#e8f4fb;">💧</div>
+          <div class="settings-label">喝水提醒頻率</div>
+          <div class="settings-value" id="sValWaterRemind">每 1 小時</div>
+          <div class="settings-arrow">›</div>
+        </div>
+        <div class="settings-row" onclick="openSub('meal_remind')">
+          <div class="settings-icon" style="background:#f5f0e8;">🍽️</div>
+          <div class="settings-label">用餐記錄提醒</div>
+          <div class="settings-value">已開啟</div>
+          <div class="settings-arrow">›</div>
+        </div>
+      </div>
+
+      <div class="settings-title">關於</div>
+      <div class="settings-group">
+        <div class="settings-row">
+          <div class="settings-icon" style="background:#e8f0e6;">🌿</div>
+          <div class="settings-label">輕食刻度</div>
+          <div class="settings-value">v1.0.0</div>
+        </div>
+        <div class="settings-row" onclick="alert('感謝使用輕食刻度！如有任何問題請聯絡 support@qingshike.com')">
+          <div class="settings-icon" style="background:#f5f0e8;">💬</div>
+          <div class="settings-label">聯絡客服</div>
+          <div class="settings-arrow">›</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="logout-btn" onclick="confirmLogout()">登出帳號</button>
+  </div>
+
+  <nav class="bottom-nav">
+    <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><div class="nav-label">首頁</div></div>
+    <div class="nav-item" onclick="showScreen('camera')"><div class="nav-icon">📷</div><div class="nav-label">拍照</div></div>
+    <div class="nav-item" onclick="showScreen('recipe')"><div class="nav-icon">📖</div><div class="nav-label">食譜</div></div>
+    <div class="nav-item" onclick="showScreen('history')"><div class="nav-icon">📅</div><div class="nav-label">紀錄</div></div>
+    <div class="nav-item active"><div class="nav-icon">👤</div><div class="nav-label">我的</div></div>
+  </nav>
+</div>
+
+<!-- ── Sub sheets ── -->
+<!-- Name -->
+<div class="sub-sheet-overlay" id="subName" onclick="closeSubOutside(event,'subName')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">用戶名稱</div>
+    <div class="form-group"><input class="form-input" type="text" id="inputName" placeholder="輸入你的名稱"/></div>
+    <div class="sub-actions">
+      <button class="sub-cancel" onclick="closeSub('subName')">取消</button>
+      <button class="sub-save" onclick="saveName()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Email -->
+<div class="sub-sheet-overlay" id="subEmail" onclick="closeSubOutside(event,'subEmail')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">電子郵件</div>
+    <div class="form-group"><input class="form-input" type="email" id="inputEmail" placeholder="email@example.com"/></div>
+    <div class="sub-actions">
+      <button class="sub-cancel" onclick="closeSub('subEmail')">取消</button>
+      <button class="sub-save" onclick="saveEmail()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Password -->
+<div class="sub-sheet-overlay" id="subPassword" onclick="closeSubOutside(event,'subPassword')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">更改密碼</div>
+    <div class="form-group"><label class="form-label">目前密碼</label><input class="form-input" type="password" id="inputOldPw" placeholder="輸入目前密碼"/></div>
+    <div class="form-group"><label class="form-label">新密碼</label><input class="form-input" type="password" id="inputNewPw" placeholder="至少 8 位數"/></div>
+    <div class="form-group"><label class="form-label">確認新密碼</label><input class="form-input" type="password" id="inputConfirmPw" placeholder="再輸入一次新密碼"/></div>
+    <div class="sub-actions">
+      <button class="sub-cancel" onclick="closeSub('subPassword')">取消</button>
+      <button class="sub-save" onclick="savePassword()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Body -->
+<div class="sub-sheet-overlay" id="subBody" onclick="closeSubOutside(event,'subBody')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">身高 / 體重</div>
+    <div class="form-row">
+      <div class="form-group"><label class="form-label">身高</label><div class="unit-wrap"><input class="form-input" type="number" id="inputH" placeholder="163"/><span class="unit">cm</span></div></div>
+      <div class="form-group"><label class="form-label">體重</label><div class="unit-wrap"><input class="form-input" type="number" id="inputW" placeholder="55"/><span class="unit">kg</span></div></div>
+    </div>
+    <div class="sub-actions">
+      <button class="sub-cancel" onclick="closeSub('subBody')">取消</button>
+      <button class="sub-save" onclick="saveBody()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Bodyfat -->
+<div class="sub-sheet-overlay" id="subBodyfat" onclick="closeSubOutside(event,'subBodyfat')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">肌肉量 / 體脂率</div>
+    <div class="form-row">
+      <div class="form-group"><label class="form-label">肌肉量</label><div class="unit-wrap"><input class="form-input" type="number" id="inputMuscle" placeholder="38.5"/><span class="unit">kg</span></div></div>
+      <div class="form-group"><label class="form-label">體脂率</label><div class="unit-wrap"><input class="form-input" type="number" id="inputFatPct" placeholder="22"/><span class="unit">%</span></div></div>
+    </div>
+    <div class="sub-actions">
+      <button class="sub-cancel" onclick="closeSub('subBodyfat')">取消</button>
+      <button class="sub-save" onclick="saveBodyfat()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Goal -->
+<div class="sub-sheet-overlay" id="subGoal" onclick="closeSubOutside(event,'subGoal')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">目標設定</div>
+    <div class="goal-cards" id="subGoalCards">
+      <div class="goal-card selected" onclick="selectSubGoal(this,'減脂瘦身')"><div class="icon">🔥</div><div class="lbl">減脂瘦身</div></div>
+      <div class="goal-card" onclick="selectSubGoal(this,'增肌健身')"><div class="icon">💪</div><div class="lbl">增肌健身</div></div>
+      <div class="goal-card" onclick="selectSubGoal(this,'維持體重')"><div class="icon">⚖️</div><div class="lbl">維持體重</div></div>
+      <div class="goal-card" onclick="selectSubGoal(this,'健康飲食')"><div class="icon">🌱</div><div class="lbl">健康飲食</div></div>
+    </div>
+    <div class="sub-actions" style="margin-top:16px;">
+      <button class="sub-cancel" onclick="closeSub('subGoal')">取消</button>
+      <button class="sub-save" onclick="saveGoal()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Water remind -->
+<div class="sub-sheet-overlay" id="subWaterRemind" onclick="closeSubOutside(event,'subWaterRemind')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">喝水提醒頻率</div>
+    <div class="settings-group" style="margin-bottom:0;">
+      <div class="settings-row" onclick="setWaterRemind(this,'每 30 分鐘')"><div class="settings-label">每 30 分鐘</div></div>
+      <div class="settings-row" onclick="setWaterRemind(this,'每 1 小時')"><div class="settings-label">每 1 小時</div></div>
+      <div class="settings-row" onclick="setWaterRemind(this,'每 2 小時')"><div class="settings-label">每 2 小時</div></div>
+      <div class="settings-row" onclick="setWaterRemind(this,'不提醒')"><div class="settings-label">不提醒</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Meal remind -->
+<div class="sub-sheet-overlay" id="subMealRemind" onclick="closeSubOutside(event,'subMealRemind')">
+  <div class="sub-sheet">
+    <div class="sub-handle"></div>
+    <div class="sub-title">用餐記錄提醒</div>
+    <div class="settings-group" style="margin-bottom:0;">
+      <div class="settings-row" onclick="closeSub('subMealRemind')"><div class="settings-label">早餐提醒（08:00）</div><div class="settings-value">已開啟</div></div>
+      <div class="settings-row" onclick="closeSub('subMealRemind')"><div class="settings-label">午餐提醒（12:00）</div><div class="settings-value">已開啟</div></div>
+      <div class="settings-row" onclick="closeSub('subMealRemind')"><div class="settings-label">晚餐提醒（18:00）</div><div class="settings-value">已開啟</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ RECIPE DETAIL MODAL ═══ -->
+<div class="recipe-modal-overlay" id="recipeModal" onclick="closeRecipeModalOutside(event)">
+  <div class="recipe-sheet">
+    <div class="recipe-sheet-top">
+      <div class="recipe-sheet-handle"></div>
+      <div class="recipe-sheet-emoji" id="rdEmoji"></div>
+      <div class="recipe-sheet-name" id="rdName"></div>
+      <div class="recipe-sheet-sub" id="rdSub"></div>
+      <div class="recipe-sheet-macros" id="rdMacros"></div>
+    </div>
+    <div class="recipe-sheet-padding">
+      <div class="recipe-section-title">📋 食材</div>
+      <div id="rdIngredients"></div>
+      <div class="recipe-section-title">👩‍🍳 做法</div>
+      <div id="rdSteps"></div>
+      <button class="btn-primary" style="max-width:100%;margin-top:20px;" onclick="closeRecipeModal()">收起 ↓</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ EDIT MODAL ═══ -->
+<div class="modal-overlay" id="editModal" onclick="closeModalOutside(event)">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-title">修改紀錄</div>
+    <div class="modal-food-name" id="modalFoodName"></div>
+    <div class="modal-fields">
+      <div class="modal-field">
+        <label>熱量</label>
+        <div class="unit-wrap"><input class="form-input" type="number" id="editKcal"/><span class="unit">kcal</span></div>
+      </div>
+      <div class="modal-field">
+        <label>蛋白質</label>
+        <div class="unit-wrap"><input class="form-input" type="number" id="editProtein"/><span class="unit">g</span></div>
+      </div>
+      <div class="modal-field">
+        <label>碳水化合物</label>
+        <div class="unit-wrap"><input class="form-input" type="number" id="editCarbs"/><span class="unit">g</span></div>
+      </div>
+      <div class="modal-field">
+        <label>脂肪</label>
+        <div class="unit-wrap"><input class="form-input" type="number" id="editFat"/><span class="unit">g</span></div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="modal-btn-cancel" onclick="closeModal()">取消</button>
+      <button class="modal-btn-save" onclick="saveEdit()">儲存</button>
+      <button class="modal-btn-delete" onclick="deleteLog()" title="刪除">🗑</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var logs = [];
+var currentPeriod = 'day';
+var currentOffset = 0;
+var GOAL = 1500;
+var weekDays = ['日','一','二','三','四','五','六'];
+var WATER_GOAL = 8;
+var WATER_ML_GOAL = 2000;
+var waterCups = 0;
+var reminderTimer = null;
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(function(s){ s.classList.remove('active'); });
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0,0);
+  if (id === 'history') renderHistory();
+}
+
+function selectGoal(el) {
+  document.querySelectorAll('.goal-card').forEach(function(c){ c.classList.remove('selected'); });
+  el.classList.add('selected');
+}
+
+function tog(key) {
+  var field = document.getElementById(key+'F');
+  var toggle = document.getElementById(key+'T');
+  var knob = document.getElementById(key+'K');
+  var isOn = field.classList.contains('show');
+  if (isOn) { field.classList.remove('show'); toggle.style.background=''; knob.style.left='2px'; }
+  else { field.classList.add('show'); toggle.style.background='var(--accent)'; knob.style.left='22px'; }
+}
+
+function startApp() {
+  var weight = parseFloat(document.getElementById('inputWeight').value) || 60;
+  var actFactor = parseFloat(document.getElementById('inputActivity').value) || 1.0;
+  var mlRaw = weight * 35 * actFactor;
+  WATER_ML_GOAL = Math.round(mlRaw / 250) * 250;
+  WATER_GOAL = Math.round(WATER_ML_GOAL / 250);
+  renderWaterCups();
+  showScreen('home');
+}
+
+function formatDate(d) {
+  return (d.getMonth()+1) + '/' + d.getDate() + ' 週' + weekDays[d.getDay()];
+}
+
+var todayEl = document.getElementById('todayDate');
+if (todayEl) todayEl.textContent = formatDate(new Date());
+
+// ── GPT-4o Food Recognition ──
+var WORKER_URL = 'https://qingshikedo-ai.dodo810228.workers.dev/';
+
+function testWorker() {
+  var el = document.getElementById('testResult');
+  el.style.display = 'block';
+  el.textContent = '測試中⋯';
+  fetch(WORKER_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: 'gpt-4o-mini',
+      max_tokens: 50,
+      messages: [{ role: 'user', content: '說「連線成功」這四個字' }]
+    })
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    if (data.choices && data.choices[0]) {
+      el.textContent = '✅ 連線成功！' + data.choices[0].message.content;
+      el.style.color = 'var(--accent)';
+    } else if (data.error) {
+      el.textContent = '❌ OpenAI 錯誤：' + data.error.message;
+      el.style.color = '#d06060';
+    } else {
+      el.textContent = '❌ 未知錯誤：' + JSON.stringify(data).substring(0,100);
+      el.style.color = '#d06060';
+    }
+  })
+  .catch(function(err) {
+    el.textContent = '❌ 連線失敗：' + err.message;
+    el.style.color = '#d06060';
+  });
+}
+var currentFoodResult = null;
+
+function resetCamera() {
+  document.getElementById('uploadPreview').style.display = 'none';
+  document.getElementById('uploadPrompt').style.display = 'block';
+  document.getElementById('resultCard').classList.remove('show');
+  document.getElementById('loadingState').classList.remove('show');
+  document.getElementById('foodImageInput').value = '';
+  currentFoodResult = null;
+}
+
+function analyzeFood(event) {
+  var file = event.target.files[0];
+  if (!file) return;
+
+  // Show preview
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    var originalBase64 = e.target.result;
+
+    // Compress image before sending
+    var img = new Image();
+    img.onload = function() {
+      var canvas = document.createElement('canvas');
+      var maxSize = 320;
+      var w = img.width, h = img.height;
+      if (w > h) { if (w > maxSize) { h = Math.round(h*maxSize/w); w = maxSize; } }
+      else { if (h > maxSize) { w = Math.round(w*maxSize/h); h = maxSize; } }
+      canvas.width = w; canvas.height = h;
+      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+      var base64 = canvas.toDataURL('image/jpeg', 0.4);
+
+      document.getElementById('previewImg').src = base64;
+      document.getElementById('uploadPreview').style.display = 'block';
+      document.getElementById('uploadPrompt').style.display = 'none';
+      document.getElementById('loadingState').classList.add('show');
+      document.getElementById('resultCard').classList.remove('show');
+      document.getElementById('loadingText').textContent = 'AI 正在辨識食物⋯';
+
+      var goal = profileData.goal || '健康飲食';
+      var prompt = '這是一張食物照片。請辨識照片中的食物，並以JSON格式回傳以下資訊（只回傳JSON，不要其他文字）：\n{\n  "food_name": "食物名稱（繁體中文）",\n  "calories": 數字（大卡）,\n  "protein": 數字（公克）,\n  "carbs": 數字（公克）,\n  "fat": 數字（公克）,\n  "advice": "根據用戶目標【' + goal + '】給一句繁體中文飲食建議（30字內）"\n}\n如果無法辨識食物，food_name填「無法辨識」，其他填0。';
+
+      var base64Data = base64.split(',')[1];
+
+      // Add 45 second timeout
+      var controller = new AbortController();
+      var timeout = setTimeout(function(){ controller.abort(); }, 45000);
+      // Progress messages
+      var msgs = ["AI 正在辨識食物⋯", "分析營養成分中⋯", "快好了，請稍候⋯"];
+      var mi = 0;
+      var msgTimer = setInterval(function(){ mi=(mi+1)%msgs.length; var el=document.getElementById("loadingText"); if(el) el.textContent=msgs[mi]; }, 3000);
+
+      fetch(WORKER_URL, {
+        method: 'POST',
+        signal: controller.signal,
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          model: 'gpt-4o-mini',
+          max_tokens: 200,
+          messages: [{
+            role: 'user',
+            content: [
+              { type: 'text', text: prompt },
+              { type: 'image_url', image_url: { url: 'data:image/jpeg;base64,' + base64Data, detail: 'low' } }
+            ]
+          }]
+        })
+      })
+      .then(function(r) { clearTimeout(timeout); clearInterval(msgTimer); return r.json(); })
+      .then(function(data) {
+        document.getElementById('loadingState').classList.remove('show');
+        if (data.error) throw new Error(data.error.message);
+
+        var text = data.choices[0].message.content.trim();
+        text = text.replace(/```json/g,'').replace(/```/g,'').trim();
+        var result = JSON.parse(text);
+
+        currentFoodResult = {
+          food: '🍽️ ' + (result.food_name || '餐點'),
+          kcal: Math.round(result.calories || 0),
+          protein: Math.round(result.protein || 0),
+          carbs: Math.round(result.carbs || 0),
+          fat: Math.round(result.fat || 0)
+        };
+
+        document.getElementById('resultFoodName').textContent = currentFoodResult.food;
+        document.getElementById('rKcal').textContent = currentFoodResult.kcal;
+        document.getElementById('rProtein').textContent = currentFoodResult.protein + 'g';
+        document.getElementById('rCarbs').textContent = currentFoodResult.carbs + 'g';
+        document.getElementById('rFat').textContent = currentFoodResult.fat + 'g';
+        document.getElementById('aiAdvice').textContent = result.advice || '記錄完成，繼續保持健康飲食 🌿';
+        document.getElementById('resultCard').classList.add('show');
+      })
+      .catch(function(err) {
+        clearTimeout(timeout); clearInterval(msgTimer);
+        document.getElementById('loadingState').classList.remove('show');
+        console.error('GPT-4o error:', err);
+        currentFoodResult = { food:'🍽️ 未能辨識', kcal:0, protein:0, carbs:0, fat:0 };
+        document.getElementById('resultFoodName').textContent = '🍽️ 辨識失敗，請手動調整數值';
+        document.getElementById('rKcal').textContent = '0';
+        document.getElementById('rProtein').textContent = '0g';
+        document.getElementById('rCarbs').textContent = '0g';
+        document.getElementById('rFat').textContent = '0g';
+        document.getElementById('aiAdvice').textContent = '無法自動辨識，加入紀錄後可手動修改數值 🌿';
+        document.getElementById('resultCard').classList.add('show');
+      });
+    };
+    img.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+function addToLog() {
+  var now = new Date();
+  var hh = String(now.getHours()).padStart(2,'0');
+  var mm = String(now.getMinutes()).padStart(2,'0');
+  var entry = currentFoodResult || { food:'🍽️ 餐點', kcal:0, protein:0, carbs:0, fat:0 };
+  logs.unshift({
+    time: hh+':'+mm,
+    food: entry.food,
+    kcal: entry.kcal,
+    protein: entry.protein,
+    carbs: entry.carbs,
+    fat: entry.fat
+  });
+  updateHome();
+  resetCamera();
+  showScreen('home');
+}
+
+function resetCamera() {
+  document.getElementById('uploadPreview').style.display = 'none';
+  document.getElementById('uploadPrompt').style.display = 'block';
+  document.getElementById('resultCard').classList.remove('show');
+  document.getElementById('loadingState').classList.remove('show');
+  document.getElementById('foodImageInput').value = '';
+  currentFoodResult = null;
+}
+
+function analyzeFood(event) {
+  var file = event.target.files[0];
+  if (!file) return;
+
+  // Show preview
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    document.getElementById('previewImg').src = e.target.result;
+    document.getElementById('uploadPreview').style.display = 'block';
+    document.getElementById('uploadPrompt').style.display = 'none';
+  };
+  reader.readAsDataURL(file);
+
+  // Show loading
+  var loading = document.getElementById('loadingState');
+  var result = document.getElementById('resultCard');
+  loading.classList.add('show');
+  result.classList.remove('show');
+  document.getElementById('loadingText').textContent = 'AI 正在辨識食物⋯';
+
+  // Step 1: Upload image to LogMeal for recognition
+  var formData = new FormData();
+  formData.append('image', file);
+
+  fetch('https://api.logmeal.com/v2/image/segmentation/complete', {
+    method: 'POST',
+    headers: { 'Authorization': 'Bearer ' + LOGMEAL_USER_TOKEN },
+    body: formData
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    console.log('LogMeal segmentation:', data);
+    if (!data.imageId) throw new Error('辨識失敗，請重新拍照');
+
+    document.getElementById('loadingText').textContent = '正在計算營養成分⋯';
+
+    // Step 2: Get nutritional info using imageId
+    return fetch('https://api.logmeal.com/v2/nutritional/recipe/ingredients/0', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + LOGMEAL_USER_TOKEN,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ imageId: data.imageId })
+    }).then(function(r) { return r.json(); }).then(function(nutrition) {
+      return { segmentation: data, nutrition: nutrition };
+    });
+  })
+  .then(function(combined) {
+    loading.classList.remove('show');
+    var seg = combined.segmentation;
+    var nut = combined.nutrition;
+    console.log('LogMeal nutrition:', nut);
+
+    // Extract food names
+    var foodNames = [];
+    if (seg.foodGroups && seg.foodGroups.length > 0) {
+      foodNames = seg.foodGroups.map(function(f) { return f.name; });
+    } else if (seg.recognized_dishes && seg.recognized_dishes.length > 0) {
+      foodNames = seg.recognized_dishes.slice(0,3).map(function(f) { return f.name; });
+    }
+    var foodLabel = foodNames.length > 0 ? foodNames.join('、') : '混合餐點';
+
+    // Extract nutrition values
+    var calories = 0, protein = 0, carbs = 0, fat = 0;
+    if (nut && nut.nutritional_info) {
+      var n = nut.nutritional_info;
+      calories = Math.round(n.calories || n.energy || 0);
+      protein  = Math.round(n.proteins || n.protein || 0);
+      carbs    = Math.round(n.carbohydrates || n.carbs || 0);
+      fat      = Math.round(n.fat || n.fats || 0);
+    }
+
+    // Store result
+    currentFoodResult = {
+      food: '🍽️ ' + foodLabel,
+      kcal: calories,
+      protein: protein,
+      carbs: carbs,
+      fat: fat
+    };
+
+    // Update UI
+    document.getElementById('resultFoodName').textContent = '🍽️ ' + foodLabel;
+    document.getElementById('rKcal').textContent = calories;
+    document.getElementById('rProtein').textContent = protein + 'g';
+    document.getElementById('rCarbs').textContent = carbs + 'g';
+    document.getElementById('rFat').textContent = fat + 'g';
+
+    // Generate advice based on user goal
+    var goal = profileData.goal || '健康飲食';
+    var advice = generateAdvice(goal, calories, protein, carbs, fat, foodLabel);
+    document.getElementById('aiAdvice').textContent = advice;
+
+    result.classList.add('show');
+  })
+  .catch(function(err) {
+    loading.classList.remove('show');
+    console.error('LogMeal error:', err);
+    // Fallback: show manual entry
+    currentFoodResult = { food: '🍽️ 未能辨識', kcal: 0, protein: 0, carbs: 0, fat: 0 };
+    document.getElementById('resultFoodName').textContent = '🍽️ 辨識失敗，請手動調整數值';
+    document.getElementById('rKcal').textContent = '0';
+    document.getElementById('rProtein').textContent = '0g';
+    document.getElementById('rCarbs').textContent = '0g';
+    document.getElementById('rFat').textContent = '0g';
+    document.getElementById('aiAdvice').textContent = '無法自動辨識，你可以加入紀錄後手動修改數值 🌿';
+    result.classList.add('show');
+  });
+}
+
+function generateAdvice(goal, kcal, protein, carbs, fat, food) {
+  var totalToday = logs.reduce(function(s,l){ return s+l.kcal; }, 0);
+  var remaining = Math.max(GOAL - totalToday - kcal, 0);
+  var advice = '';
+  if (goal === '減脂瘦身') {
+    if (kcal > 600) advice = '這餐熱量較高，今天剩餘 ' + remaining + ' kcal，晚餐建議選擇清淡蔬菜為主 🥦';
+    else advice = '熱量控制得不錯！今天還剩 ' + remaining + ' kcal，繼續保持 💪';
+  } else if (goal === '增肌健身') {
+    if (protein < 20) advice = '蛋白質偏低，建議補充雞胸肉或蛋白飲，幫助肌肉合成 💪';
+    else advice = '蛋白質攝取很棒！' + protein + 'g 有助於肌肉生長，今天還剩 ' + remaining + ' kcal 🏋️';
+  } else {
+    advice = '這餐含有 ' + protein + 'g 蛋白質、' + carbs + 'g 碳水，今天還剩 ' + remaining + ' kcal 🌿';
+  }
+  return advice;
+}
+
+function addToLog() {
+  var now = new Date();
+  var hh = String(now.getHours()).padStart(2,'0');
+  var mm = String(now.getMinutes()).padStart(2,'0');
+  var entry = currentFoodResult || { food:'🍽️ 餐點', kcal:0, protein:0, carbs:0, fat:0 };
+  logs.unshift({
+    time: hh+':'+mm,
+    food: entry.food,
+    kcal: entry.kcal,
+    protein: entry.protein,
+    carbs: entry.carbs,
+    fat: entry.fat
+  });
+  updateHome();
+  resetCamera();
+  showScreen('home');
+}
+
+
+function updateHome() {
+  var total = logs.reduce(function(s,l){ return s+l.kcal; }, 0);
+  var p = logs.reduce(function(s,l){ return s+l.protein; }, 0);
+  var c = logs.reduce(function(s,l){ return s+l.carbs; }, 0);
+  var f = logs.reduce(function(s,l){ return s+l.fat; }, 0);
+  var pct = Math.min(total/GOAL, 1);
+
+  document.getElementById('ringCal').textContent = total;
+  document.getElementById('totalCal').innerHTML = total + ' <span style="font-size:13px;color:var(--text-light)">kcal</span>';
+  document.getElementById('calSub').textContent = '目標 ' + GOAL.toLocaleString() + ' kcal・剩餘 ' + Math.max(GOAL-total,0).toLocaleString();
+  document.getElementById('calorieRing').style.strokeDashoffset = 251.2*(1-pct);
+  document.getElementById('mp').textContent = p+'g';
+  document.getElementById('mc').textContent = c+'g';
+  document.getElementById('mf').textContent = f+'g';
+  document.getElementById('mpBar').style.width = Math.min(p/120*100,100)+'%';
+  document.getElementById('mcBar').style.width = Math.min(c/180*100,100)+'%';
+  document.getElementById('mfBar').style.width = Math.min(f/50*100,100)+'%';
+
+  var list = document.getElementById('logList');
+  if (logs.length === 0) {
+    list.innerHTML = '<div class="empty-log"><div class="empty-log-txt">📷 拍照後自動導入紀錄</div></div>';
+  } else {
+    list.innerHTML = logs.map(function(l, i){
+      return '<div class="log-entry" onclick="openEdit('+i+')">' +
+        '<div class="log-time">'+l.time+'</div>' +
+        '<div class="log-body">' +
+          '<div class="log-food">'+l.food+'</div>' +
+          '<div class="log-entry-macros">' +
+            '<span class="log-macro-chip">蛋白 '+l.protein+'g</span>' +
+            '<span class="log-macro-chip">碳水 '+l.carbs+'g</span>' +
+            '<span class="log-macro-chip">脂肪 '+l.fat+'g</span>' +
+          '</div>' +
+        '</div>' +
+        '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">' +
+          '<div class="log-kcal">'+l.kcal+' kcal</div>' +
+          '<div style="font-size:10px;color:var(--text-light);">點擊修改 ›</div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+}
+
+var editingIndex = -1;
+
+function openEdit(i) {
+  editingIndex = i;
+  var l = logs[i];
+  document.getElementById('modalFoodName').textContent = l.food + '・' + l.time;
+  document.getElementById('editKcal').value = l.kcal;
+  document.getElementById('editProtein').value = l.protein;
+  document.getElementById('editCarbs').value = l.carbs;
+  document.getElementById('editFat').value = l.fat;
+  document.getElementById('editModal').classList.add('show');
+}
+
+function closeModal() {
+  document.getElementById('editModal').classList.remove('show');
+  editingIndex = -1;
+}
+
+function closeModalOutside(e) {
+  if (e.target === document.getElementById('editModal')) closeModal();
+}
+
+function saveEdit() {
+  if (editingIndex < 0) return;
+  logs[editingIndex].kcal = parseInt(document.getElementById('editKcal').value) || 0;
+  logs[editingIndex].protein = parseInt(document.getElementById('editProtein').value) || 0;
+  logs[editingIndex].carbs = parseInt(document.getElementById('editCarbs').value) || 0;
+  logs[editingIndex].fat = parseInt(document.getElementById('editFat').value) || 0;
+  closeModal();
+  updateHome();
+}
+
+function deleteLog() {
+  if (editingIndex < 0) return;
+  logs.splice(editingIndex, 1);
+  closeModal();
+  updateHome();
+}
+
+function renderWaterCups() {
+  var container = document.getElementById('waterCups');
+  if (!container) return;
+  var cupW = Math.max(24, Math.floor(260/WATER_GOAL));
+  var html = '';
+  for (var i=0; i<WATER_GOAL; i++) {
+    html += '<div class="water-cup '+(i<waterCups?'filled':'')+'" onclick="addWater()" style="width:'+cupW+'px"><div class="fill"></div></div>';
+  }
+  container.innerHTML = html;
+  document.getElementById('waterCount').textContent = waterCups + ' / ' + WATER_GOAL + ' 杯';
+  document.getElementById('waterGoalTxt').textContent = '每日目標 ' + WATER_ML_GOAL.toLocaleString() + 'ml・已喝 ' + (waterCups*250) + 'ml';
+}
+
+function addWater() {
+  if (waterCups >= WATER_GOAL) return;
+  waterCups++;
+  dismissReminder();
+  resetReminderTimer();
+  renderWaterCups();
+  if (waterCups === WATER_GOAL) {
+    setTimeout(function(){
+      var b = document.getElementById('waterReminder');
+      var t = document.getElementById('reminderText');
+      if (b && t) { t.textContent = '🎉 今天喝水目標達成！身體很感謝你 💧'; b.style.display='flex'; }
+    }, 300);
+  }
+}
+
+function undoWater() {
+  if (waterCups <= 0) return;
+  waterCups--;
+  renderWaterCups();
+}
+
+function dismissReminder() {
+  var b = document.getElementById('waterReminder');
+  if (b) b.style.display = 'none';
+}
+
+function resetReminderTimer() {
+  if (reminderTimer) clearTimeout(reminderTimer);
+  reminderTimer = setTimeout(function(){
+    var b = document.getElementById('waterReminder');
+    var t = document.getElementById('reminderText');
+    if (b && t) { t.textContent = '距離上次喝水已超過 1 小時，記得補充水分！'; b.style.display='flex'; }
+  }, 10000);
+}
+
+function setPeriod(p, el) {
+  currentPeriod = p; currentOffset = 0;
+  document.querySelectorAll('.period-tab').forEach(function(t){ t.classList.remove('active'); });
+  el.classList.add('active');
+  renderHistory();
+}
+
+function navigate(dir) { currentOffset += dir; renderHistory(); }
+
+function renderHistory() {
+  var label = document.getElementById('dateRangeLabel');
+  var body = document.getElementById('historyBody');
+  var now = new Date();
+
+  if (currentPeriod === 'day') {
+    var d = new Date(now); d.setDate(d.getDate() + currentOffset);
+    var isToday = currentOffset === 0;
+    label.textContent = isToday ? '今天' : formatDate(d);
+    var dayLogs = isToday ? logs : [];
+    if (!dayLogs.length) {
+      body.innerHTML = '<div class="empty-hist"><div class="empty-hist-txt">這天還沒有紀錄</div></div>';
+    } else {
+      var total = dayLogs.reduce(function(s,l){ return s+l.kcal; },0);
+      var diff = GOAL - total;
+      body.innerHTML = '<div class="h-summary"><div><div class="hs-label">攝取熱量</div><div class="hs-val">'+total+' <span class="hs-unit">kcal</span></div></div><div><div class="hs-label">距目標</div><div class="hs-val" style="color:var(--accent)">'+(diff>=0?'-':'+')+Math.abs(diff)+' <span class="hs-unit">kcal</span></div></div></div>' +
+        dayLogs.map(function(l){ return '<div class="log-entry" style="margin-bottom:10px;background:white;border-radius:16px;padding:14px 16px;box-shadow:var(--card-shadow);"><div class="log-time">'+l.time+'</div><div class="log-body"><div class="log-food">'+l.food+'</div><div class="log-meta">蛋白質 '+l.protein+'g・碳水 '+l.carbs+'g・脂肪 '+l.fat+'g</div></div><div class="log-kcal">'+l.kcal+' kcal</div></div>'; }).join('');
+    }
+
+  } else if (currentPeriod === 'week') {
+    var start = new Date(now); start.setDate(start.getDate() - start.getDay() + 1 + currentOffset*7);
+    var end = new Date(start); end.setDate(end.getDate()+6);
+    label.textContent = (start.getMonth()+1)+'/'+start.getDate()+' — '+(end.getMonth()+1)+'/'+end.getDate();
+    var wData = [
+      {label:'一',kcal:1320,pct:88},{label:'二',kcal:1080,pct:72},
+      {label:'三',kcal:1420,pct:95},{label:'四',kcal:1200,pct:80},
+      {label:'五',kcal:900,pct:60},{label:'六',kcal:0,pct:0},{label:'日',kcal:0,pct:0}
+    ];
+    var avg = Math.round(wData.filter(function(d){ return d.kcal>0; }).reduce(function(s,d){ return s+d.kcal; },0)/5);
+    body.innerHTML = '<div class="h-summary"><div><div class="hs-label">週平均</div><div class="hs-val">'+avg.toLocaleString()+' <span class="hs-unit">kcal</span></div></div><div><div class="hs-label">距目標</div><div class="hs-val" style="color:var(--accent)">-'+(GOAL-avg)+' <span class="hs-unit">kcal</span></div></div><div><div class="hs-label">記錄天數</div><div class="hs-val">5 <span class="hs-unit">天</span></div></div><div><div class="hs-label">本週缺口</div><div class="hs-val">-900 <span class="hs-unit">kcal</span></div></div></div>' +
+      '<div class="bar-section"><div class="bar-sec-title">每日熱量攝取</div>' +
+      wData.map(function(d){ return '<div class="bar-row"><div class="bar-lbl">'+d.label+'</div><div class="bar-track"><div class="bar-fill" style="width:'+Math.round(d.pct)+'%"></div></div><div class="bar-val">'+(d.kcal?d.kcal.toLocaleString():'—')+'</div></div>'; }).join('') +
+      '</div><div class="ai-tip"><div class="ai-tip-title">🌿 本週 AI 觀察</div><div class="ai-tip-text">連續記錄 5 天，非常棒！整體熱量控制得好，週五攝取略低，建議補充健康零食避免節食模式 💪</div></div>';
+
+  } else {
+    var mDate = new Date(now.getFullYear(), now.getMonth() + currentOffset, 1);
+    label.textContent = mDate.getFullYear()+'年 '+(mDate.getMonth()+1)+'月';
+    var mData = [{label:'第1週',kcal:7200,pct:72},{label:'第2週',kcal:8400,pct:84},{label:'第3週',kcal:6800,pct:68},{label:'第4週',kcal:7600,pct:76}];
+    var mavg = Math.round(mData.reduce(function(s,d){ return s+d.kcal; },0)/28);
+    body.innerHTML = '<div class="h-summary"><div><div class="hs-label">月平均/日</div><div class="hs-val">'+mavg.toLocaleString()+' <span class="hs-unit">kcal</span></div></div><div><div class="hs-label">記錄天數</div><div class="hs-val">22 <span class="hs-unit">天</span></div></div></div>' +
+      '<div class="bar-section"><div class="bar-sec-title">每週攝取總量</div>' +
+      mData.map(function(d){ return '<div class="bar-row"><div class="bar-lbl" style="width:40px;font-size:11px;">'+d.label+'</div><div class="bar-track"><div class="bar-fill" style="width:'+d.pct+'%"></div></div><div class="bar-val">'+d.kcal.toLocaleString()+'</div></div>'; }).join('') +
+      '</div><div class="ai-tip"><div class="ai-tip-title">🌿 本月 AI 觀察</div><div class="ai-tip-text">本月整體飲食穩定，第3週攝取略低但趨勢健康。你已堅持記錄 22 天！🌱</div></div>';
+  }
+}
+
+renderWaterCups(); // reminder starts only after first drink
+renderHistory();
+
+// ── Recipe data ──
+var currentMealType = 'all';
+var recipeSearchText = '';
+
+var recipes = [
+  // 早餐
+  { id:1, meal:'breakfast', emoji:'🥣', name:'燕麥牛奶碗', kcal:320, protein:14, carbs:52, fat:7,
+    tags:['高纖','低脂','補充能量','快速準備'],
+    highlight:'富含水溶性纖維，穩定血糖，讓你一整個上午不餓 💪',
+    ingredients:[{n:'大燕麥片',a:'60g'},{n:'低脂牛奶',a:'240ml'},{n:'香蕉',a:'半根'},{n:'蜂蜜',a:'1茶匙'},{n:'奇亞籽',a:'1湯匙'}],
+    steps:['燕麥片加入牛奶中，微波加熱 2 分鐘或小火煮 5 分鐘至濃稠。','香蕉切片鋪在表面，淋上蜂蜜。','撒上奇亞籽，趁熱享用。']
+  },
+  { id:2, meal:'breakfast', emoji:'🥚', name:'水波蛋酪梨吐司', kcal:380, protein:18, carbs:32, fat:18,
+    tags:['高蛋白','好脂肪','增肌推薦','飽足感強'],
+    highlight:'酪梨富含好脂肪，搭配水波蛋提供完整胺基酸，增肌早餐首選 🥑',
+    ingredients:[{n:'全麥吐司',a:'2片'},{n:'酪梨',a:'半顆'},{n:'雞蛋',a:'2顆'},{n:'檸檬汁',a:'少許'},{n:'黑胡椒鹽',a:'適量'}],
+    steps:['酪梨去籽挖出果肉，加檸檬汁與鹽輕輕壓碎，保留一些顆粒感。','煮一鍋水，加少許醋，水沸後轉小火，打入雞蛋，煮 3 分鐘撈起。','吐司烤至金黃，鋪上酪梨泥，放上水波蛋，撒黑胡椒即完成。']
+  },
+  { id:3, meal:'breakfast', emoji:'🥤', name:'希臘優格莓果杯', kcal:280, protein:20, carbs:35, fat:5,
+    tags:['高蛋白','低卡','補充益生菌','減脂推薦'],
+    highlight:'希臘優格蛋白質是普通優格的兩倍，莓果抗氧化，是減脂期的完美早餐 🍓',
+    ingredients:[{n:'希臘優格',a:'200g'},{n:'綜合莓果',a:'100g'},{n:'燕麥脆麥',a:'30g'},{n:'蜂蜜',a:'1茶匙'}],
+    steps:['希臘優格盛入碗中，倒入蜂蜜輕輕拌勻。','鋪上新鮮莓果，撒上燕麥脆麥增加口感，即可享用。']
+  },
+  // 午餐
+  { id:4, meal:'lunch', emoji:'🍱', name:'雞胸肉藜麥便當', kcal:480, protein:42, carbs:48, fat:10,
+    tags:['超高蛋白','完整胺基酸','增肌必備','低升糖'],
+    highlight:'藜麥是完整蛋白質來源，搭配雞胸肉讓蛋白質攝取量達到頂峰，健身族最愛 🏋️',
+    ingredients:[{n:'雞胸肉',a:'150g'},{n:'藜麥',a:'80g'},{n:'花椰菜',a:'100g'},{n:'橄欖油',a:'1湯匙'},{n:'蒜頭',a:'2瓣'},{n:'鹽胡椒',a:'適量'}],
+    steps:['藜麥洗淨，加入兩倍水量，煮沸後轉小火蓋蓋悶15分鐘。','雞胸肉拍平，以橄欖油、鹽、胡椒醃10分鐘，平底鍋中火各煎5分鐘。','花椰菜蒸熟或炒熟，蒜頭切末爆香提味，所有食材擺盤即完成。']
+  },
+  { id:5, meal:'lunch', emoji:'🥗', name:'鮪魚尼斯沙拉', kcal:380, protein:32, carbs:22, fat:16,
+    tags:['地中海飲食','低碳','高蛋白','減脂推薦'],
+    highlight:'地中海飲食被列為全球最健康飲食之一，低碳高蛋白，減脂期午餐的好選擇 🫒',
+    ingredients:[{n:'水煮鮪魚罐頭',a:'150g'},{n:'水煮蛋',a:'2顆'},{n:'四季豆',a:'80g'},{n:'番茄',a:'1顆'},{n:'橄欖油',a:'1湯匙'},{n:'檸檬',a:'半顆'}],
+    steps:['四季豆燙熟，番茄切塊，水煮蛋對半切。','所有食材擺盤，鮪魚瀝乾鋪上。','淋上橄欖油與新鮮檸檬汁，加鹽胡椒調味即完成。']
+  },
+  { id:6, meal:'lunch', emoji:'🍜', name:'蒟蒻蔬菜拉麵', kcal:290, protein:18, carbs:30, fat:8,
+    tags:['超低卡','高纖','飽足感強','減脂神器'],
+    highlight:'蒟蒻幾乎零熱量卻超有飽足感，讓你吃拉麵沒有罪惡感，減脂期也能享受 🍜',
+    ingredients:[{n:'蒟蒻絲',a:'200g'},{n:'雞高湯',a:'400ml'},{n:'豆腐',a:'100g'},{n:'菠菜',a:'50g'},{n:'玉米筍',a:'50g'},{n:'味噌',a:'1湯匙'}],
+    steps:['蒟蒻絲洗淨川燙去除腥味，撈起備用。','雞高湯加熱，加入味噌拌勻。','放入豆腐、菠菜、玉米筍煮熟，最後加入蒒蒻絲即可上桌。']
+  },
+  // 晚餐
+  { id:7, meal:'dinner', emoji:'🐟', name:'清蒸鱸魚', kcal:280, protein:38, carbs:4, fat:9,
+    tags:['超高蛋白','低脂','Omega-3','養顏美容'],
+    highlight:'鱸魚富含Omega-3脂肪酸，蛋白質含量極高，清蒸保留最完整的營養，晚餐首選 🌙',
+    ingredients:[{n:'鱸魚',a:'1條 約400g'},{n:'薑',a:'5片'},{n:'蔥',a:'2根'},{n:'醬油',a:'2湯匙'},{n:'米酒',a:'1湯匙'},{n:'香油',a:'少許'}],
+    steps:['鱸魚洗淨，魚身劃刀，塗抹米酒與薑片去腥，靜置10分鐘。','電鍋或蒸鍋大火蒸10-12分鐘，竹籤插入無血水即熟。','倒掉蒸出的水，淋上醬油，鋪上蔥絲，最後澆上熱香油爆香即完成。']
+  },
+  { id:8, meal:'dinner', emoji:'🥦', name:'彩蔬豆腐炒蛋', kcal:320, protein:22, carbs:16, fat:18,
+    tags:['植物蛋白','素食友善','低碳','容易消化'],
+    highlight:'豆腐提供完整植物蛋白，彩椒富含維生素C，清淡好消化，非常適合晚餐 🌙',
+    ingredients:[{n:'板豆腐',a:'200g'},{n:'雞蛋',a:'2顆'},{n:'紅黃椒',a:'各半顆'},{n:'菠菜',a:'50g'},{n:'蒜頭',a:'2瓣'},{n:'醬油',a:'1湯匙'}],
+    steps:['豆腐切塊，用廚房紙巾吸乾水分，平底鍋少油煎至兩面金黃。','雞蛋打散，同鍋炒熟後撥到一邊。','加入蒜末、彩椒爆香，加菠菜拌炒，加入豆腐與蛋，醬油調味即完成。']
+  },
+  { id:9, meal:'dinner', emoji:'🍲', name:'韓式大醬湯', kcal:220, protein:16, carbs:18, fat:8,
+    tags:['低卡','暖胃','發酵食品','益生菌'],
+    highlight:'韓式大醬富含益生菌，蔬菜豐富熱量低，寒冷天氣最暖胃的低卡晚餐 🌶️',
+    ingredients:[{n:'大醬（韓式味噌）',a:'2湯匙'},{n:'豆腐',a:'150g'},{n:'櫛瓜',a:'半條'},{n:'金針菇',a:'50g'},{n:'蛤蜊',a:'100g'},{n:'青陽辣椒',a:'1根（可省略）'}],
+    steps:['小鍋加水500ml，放入蛤蜊煮至開口，撈出蛤蜊備用。','大醬溶入湯中，放入豆腐、櫛瓜、金針菇，中火煮5分鐘。','放回蛤蜊，加入辣椒，滾後即可關火上桌。']
+  },
+  // 點心
+  { id:10, meal:'snack', emoji:'🍌', name:'香蕉蛋白球', kcal:180, protein:12, carbs:24, fat:4,
+    tags:['運動前後','高蛋白','自然甜味','無添加糖'],
+    highlight:'天然香蕉甜味取代砂糖，搭配蛋白粉補充運動後的蛋白質需求，健康又美味 🏃',
+    ingredients:[{n:'熟香蕉',a:'1根'},{n:'燕麥粉',a:'60g'},{n:'乳清蛋白粉',a:'30g'},{n:'花生醬',a:'1湯匙'}],
+    steps:['香蕉壓成泥，與燕麥粉、蛋白粉、花生醬充分混合。','將混合物揉成直徑約3cm的小球，約可做10-12顆。','放入烤箱180°C烤12分鐘，或直接冷藏30分鐘後食用。']
+  },
+  { id:11, meal:'snack', emoji:'🧀', name:'低脂起司小黃瓜捲', kcal:120, protein:10, carbs:6, fat:5,
+    tags:['超低卡','低碳','減脂推薦','5分鐘完成'],
+    highlight:'幾乎不含熱量的小黃瓜搭配低脂起司，是減脂期嘴饞時的完美解方 ✂️',
+    ingredients:[{n:'小黃瓜',a:'2條'},{n:'低脂奶油起司',a:'60g'},{n:'煙燻鮭魚',a:'40g'},{n:'蒔蘿',a:'少許'}],
+    steps:['小黃瓜用削皮器削成薄長片。','起司抹在黃瓜片上，放上鮭魚片與蒔蘿。','捲起用牙籤固定，冷藏10分鐘更好吃。']
+  },
+  { id:12, meal:'snack', emoji:'🍵', name:'抹茶杏仁豆腐', kcal:160, protein:8, carbs:20, fat:5,
+    tags:['低糖','抗氧化','日式風格','補充鈣質'],
+    highlight:'抹茶富含兒茶素抗氧化，豆腐提供植物蛋白，這道甜點讓你吃得優雅又健康 🍵',
+    ingredients:[{n:'嫩豆腐',a:'200g'},{n:'抹茶粉',a:'1茶匙'},{n:'吉利丁片',a:'2片'},{n:'低脂牛奶',a:'200ml'},{n:'蜂蜜',a:'1湯匙'}],
+    steps:['吉利丁片泡冷水軟化，牛奶小火加熱至微溫，溶入吉利丁。','嫩豆腐、抹茶粉、蜂蜜放入果汁機打勻，加入牛奶混合。','倒入容器，冷藏3小時以上至凝固即可。']
+  }
+];
+
+function setMealType(type, el) {
+  currentMealType = type;
+  document.querySelectorAll('.goal-tab').forEach(function(t){ t.classList.remove('active'); });
+  el.classList.add('active');
+  renderRecipes();
+}
+
+function filterRecipes(val) {
+  recipeSearchText = val.toLowerCase();
+  renderRecipes();
+}
+
+function renderRecipes() {
+  var list = document.getElementById('recipeList');
+  var filtered = recipes.filter(function(r) {
+    var matchType = currentMealType === 'all' || r.meal === currentMealType;
+    var matchSearch = !recipeSearchText || r.name.toLowerCase().indexOf(recipeSearchText) > -1;
+    return matchType && matchSearch;
+  });
+  if (!filtered.length) {
+    list.innerHTML = '<div style="text-align:center;padding:40px 24px;color:var(--text-light);font-size:14px;">找不到符合的食譜 🔍</div>';
+    return;
+  }
+  list.innerHTML = filtered.map(function(r) {
+    var mealLabel = {breakfast:'早餐',lunch:'午餐',dinner:'晚餐',snack:'點心'}[r.meal];
+    var mealColor = {breakfast:'#f0a868',lunch:'#7aab72',dinner:'#6baacc',snack:'#a87aab'}[r.meal];
+    return '<div class="recipe-card" onclick="openRecipe('+r.id+')">' +
+      '<div class="recipe-card-top">' +
+        '<div class="recipe-emoji">'+r.emoji+'</div>' +
+        '<div class="recipe-info">' +
+          '<div class="recipe-name">'+r.name+'</div>' +
+          '<div class="recipe-tags">' +
+            '<span class="recipe-tag" style="background:'+mealColor+'22;color:'+mealColor+';">'+mealLabel+'</span>' +
+            r.tags.slice(0,2).map(function(t){ return '<span class="recipe-tag">'+t+'</span>'; }).join('') +
+          '</div>' +
+        '</div>' +
+        '<div class="recipe-kcal">'+r.kcal+'<div class="recipe-kcal-unit">kcal</div></div>' +
+      '</div>' +
+      '<div class="recipe-macros">' +
+        '<div class="recipe-macro"><div class="recipe-macro-val">'+r.protein+'g</div><div class="recipe-macro-lbl">蛋白質</div></div>' +
+        '<div class="recipe-macro"><div class="recipe-macro-val">'+r.carbs+'g</div><div class="recipe-macro-lbl">碳水</div></div>' +
+        '<div class="recipe-macro"><div class="recipe-macro-val">'+r.fat+'g</div><div class="recipe-macro-lbl">脂肪</div></div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function openRecipe(id) {
+  var r = recipes.filter(function(x){ return x.id===id; })[0];
+  if (!r) return;
+  var mealLabel = {breakfast:'早餐',lunch:'午餐',dinner:'晚餐',snack:'點心'}[r.meal];
+  var mealColor = {breakfast:'#f0a868',lunch:'#7aab72',dinner:'#6baacc',snack:'#a87aab'}[r.meal];
+  document.getElementById('rdEmoji').textContent = r.emoji;
+  document.getElementById('rdName').textContent = r.name;
+  document.getElementById('rdSub').innerHTML = '<span style="background:'+mealColor+'22;color:'+mealColor+';padding:3px 10px;border-radius:8px;font-size:12px;">'+mealLabel+'</span>';
+  document.getElementById('rdMacros').innerHTML =
+    '<div class="rsm"><div class="rsm-val">'+r.kcal+'</div><div class="rsm-lbl">kcal</div></div>' +
+    '<div class="rsm"><div class="rsm-val">'+r.protein+'g</div><div class="rsm-lbl">蛋白質</div></div>' +
+    '<div class="rsm"><div class="rsm-val">'+r.carbs+'g</div><div class="rsm-lbl">碳水</div></div>' +
+    '<div class="rsm"><div class="rsm-val">'+r.fat+'g</div><div class="rsm-lbl">脂肪</div></div>';
+
+  // Highlight + all tags
+  document.getElementById('rdIngredients').innerHTML =
+    '<div style="background:linear-gradient(135deg,var(--sage-pale),var(--cream));border-radius:12px;padding:12px 14px;margin-bottom:14px;font-size:13px;color:var(--text-mid);line-height:1.7;border-left:3px solid var(--sage);">'+r.highlight+'</div>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;">'+
+    r.tags.map(function(t){ return '<span class="recipe-tag">'+t+'</span>'; }).join('') +
+    '</div>' +
+    r.ingredients.map(function(i){
+      return '<div class="ingredient-row"><span class="ingredient-name">'+i.n+'</span><span class="ingredient-amt">'+i.a+'</span></div>';
+    }).join('');
+
+  document.getElementById('rdSteps').innerHTML = r.steps.map(function(s,i){
+    return '<div class="step-row"><div class="step-num">'+(i+1)+'</div><div class="step-text">'+s+'</div></div>';
+  }).join('');
+
+  document.getElementById('recipeModal').classList.add('show');
+}
+
+function closeRecipeModal() {
+  document.getElementById('recipeModal').classList.remove('show');
+}
+
+function closeRecipeModalOutside(e) {
+  if (e.target === document.getElementById('recipeModal')) closeRecipeModal();
+}
+
+renderRecipes();
+renderWaterCups(); // reminder starts only after first drink
+renderHistory();
+
+// ── Profile ──
+var profileData = { name:'', email:'', height:0, weight:0, muscle:0, fatPct:0, goal:'減脂瘦身' };
+var selectedSubGoal = '減脂瘦身';
+
+function updateProfileUI() {
+  var name = profileData.name || '用戶';
+  document.getElementById('profileDisplayName').textContent = name;
+  document.getElementById('sValName').textContent = profileData.name || '未設定';
+  document.getElementById('sValEmail').textContent = profileData.email || '未設定';
+  document.getElementById('profileGoalBadge').textContent = profileData.goal;
+  document.getElementById('sValGoal').textContent = profileData.goal;
+  var w = profileData.weight; var h = profileData.height;
+  document.getElementById('pStatWeight').textContent = w ? w+'kg' : '—';
+  document.getElementById('sValBody').textContent = (h && w) ? h+'cm / '+w+'kg' : '未設定';
+  if (h && w) {
+    var bmi = (w / ((h/100)*(h/100))).toFixed(1);
+    document.getElementById('pStatBMI').textContent = bmi;
+  }
+  var m = profileData.muscle; var f = profileData.fatPct;
+  document.getElementById('sValBodyfat').textContent = (m || f) ? (m?m+'kg ':'')+( f?f+'%':'') : '未設定';
+}
+
+function openSub(key) {
+  var id = { name:'subName', email:'subEmail', password:'subPassword', body:'subBody',
+    bodyfat:'subBodyfat', goal:'subGoal', water_remind:'subWaterRemind', meal_remind:'subMealRemind' }[key];
+  if (!id) return;
+  if (key==='name') document.getElementById('inputName').value = profileData.name;
+  if (key==='email') document.getElementById('inputEmail').value = profileData.email;
+  if (key==='body') { document.getElementById('inputH').value = profileData.height||''; document.getElementById('inputW').value = profileData.weight||''; }
+  if (key==='bodyfat') { document.getElementById('inputMuscle').value = profileData.muscle||''; document.getElementById('inputFatPct').value = profileData.fatPct||''; }
+  document.getElementById(id).classList.add('show');
+}
+
+
+// ── 儲存 & 讀取用戶資料 ──
+function saveProfileToDB() {
+  if (!supabase) { console.log('saveProfile: supabase not ready'); return; }
+  supabase.auth.getUser().then(function(r) {
+    if (!r.data || !r.data.user) { console.log('saveProfile: no user'); return; }
+    var uid = r.data.user.id;
+    console.log('saveProfile: saving for uid', uid, profileData);
+    supabase.from('profiles').upsert({
+      id: uid,
+      name: profileData.name,
+      height: profileData.height || null,
+      weight: profileData.weight || null,
+      muscle: profileData.muscle || null,
+      fat_pct: profileData.fatPct || null,
+      goal: profileData.goal,
+      updated_at: new Date().toISOString()
+    }, { onConflict: 'id' }).then(function(res) {
+      if (res.error) {
+        console.error('saveProfile ERROR:', res.error.message, res.error);
+      } else {
+        console.log('saveProfile: success', res.data);
+      }
+    });
+  });
+}
+
+function loadProfileFromDB(uid) {
+  if (!supabase) { console.log('loadProfile: supabase not ready'); return; }
+  console.log('loadProfile: loading for uid', uid);
+  supabase.from('profiles').select('*').eq('id', uid).maybeSingle().then(function(res) {
+    if (res.error) { console.error('loadProfile ERROR:', res.error.message); return; }
+    if (!res.data) { console.log('loadProfile: no data found, first time user'); return; }
+    console.log('loadProfile: got data', res.data);
+    var d = res.data;
+    profileData.name    = d.name    || profileData.name;
+    profileData.height  = d.height  || 0;
+    profileData.weight  = d.weight  || 0;
+    profileData.muscle  = d.muscle  || 0;
+    profileData.fatPct  = d.fat_pct || 0;
+    profileData.goal    = d.goal    || '減脂瘦身';
+    if (profileData.weight) {
+      var mlRaw = profileData.weight * 35 * 1.0;
+      WATER_ML_GOAL = Math.round(mlRaw / 250) * 250;
+      WATER_GOAL = Math.round(WATER_ML_GOAL / 250);
+      waterCups = 0;
+      renderWaterCups();
+    }
+    updateProfileUI();
+  });
+}
+
+function closeSub(id) { document.getElementById(id).classList.remove('show'); }
+function closeSubOutside(e, id) { if (e.target===document.getElementById(id)) closeSub(id); }
+
+function saveName() {
+  profileData.name = document.getElementById('inputName').value.trim() || '用戶';
+  updateProfileUI(); closeSub('subName');
+  saveProfileToDB();
+}
+function saveEmail() {
+  profileData.email = document.getElementById('inputEmail').value.trim();
+  updateProfileUI(); closeSub('subEmail');
+}
+function savePassword() {
+  var np = document.getElementById('inputNewPw').value;
+  var cp = document.getElementById('inputConfirmPw').value;
+  if (np.length < 8) { alert('新密碼至少需要 8 位數'); return; }
+  if (np !== cp) { alert('兩次密碼不一致，請重新輸入'); return; }
+  if (supabase) {
+    supabase.auth.updateUser({ password: np }).then(function(r) {
+      closeSub('subPassword');
+      setTimeout(function(){ alert(r.error ? '更新失敗：' + r.error.message : '✅ 密碼已成功更新'); }, 200);
+    });
+  } else {
+    closeSub('subPassword');
+    setTimeout(function(){ alert('✅ 密碼已成功更新'); }, 200);
+  }
+}
+function saveBody() {
+  profileData.height = parseFloat(document.getElementById('inputH').value)||0;
+  profileData.weight = parseFloat(document.getElementById('inputW').value)||0;
+  if (profileData.weight) {
+    var mlRaw = profileData.weight * 35 * 1.0;
+    WATER_ML_GOAL = Math.round(mlRaw / 250) * 250;
+    WATER_GOAL = Math.round(WATER_ML_GOAL / 250);
+    waterCups = Math.min(waterCups, WATER_GOAL);
+    renderWaterCups();
+  }
+  updateProfileUI(); closeSub('subBody');
+  saveProfileToDB();
+}
+function saveBodyfat() {
+  profileData.muscle = parseFloat(document.getElementById('inputMuscle').value)||0;
+  profileData.fatPct = parseFloat(document.getElementById('inputFatPct').value)||0;
+  updateProfileUI(); closeSub('subBodyfat');
+  saveProfileToDB();
+}
+function selectSubGoal(el, goal) {
+  selectedSubGoal = goal;
+  document.querySelectorAll('#subGoalCards .goal-card').forEach(function(c){ c.classList.remove('selected'); });
+  el.classList.add('selected');
+}
+function saveGoal() {
+  profileData.goal = selectedSubGoal;
+  updateProfileUI(); closeSub('subGoal');
+  saveProfileToDB();
+}
+function setWaterRemind(el, val) {
+  document.getElementById('sValWaterRemind').textContent = val;
+  closeSub('subWaterRemind');
+}
+function triggerAvatarUpload() { document.getElementById('avatarInput').click(); }
+function loadAvatar(e) {
+  var file = e.target.files[0]; if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function(ev) {
+    var img = document.getElementById('avatarImg');
+    img.src = ev.target.result;
+    img.style.display = 'block';
+    document.getElementById('avatarEmoji').style.display = 'none';
+  };
+  reader.readAsDataURL(file);
+}
+function confirmLogout() {
+  if (confirm('確定要登出嗎？')) {
+    if (supabase) supabase.auth.signOut();
+    profileData = { name:'', email:'', height:0, weight:0, muscle:0, fatPct:0, goal:'減脂瘦身' };
+    var img = document.getElementById('avatarImg');
+    img.src=''; img.style.display='none';
+    document.getElementById('avatarEmoji').style.display='';
+    document.getElementById('authEmail').value = '';
+    document.getElementById('authPassword').value = '';
+    hideAuthError();
+    switchAuth('login');
+    updateProfileUI();
+    showScreen('welcome');
+  }
+}
+updateProfileUI();
+
+// ── Supabase Auth ──
+var SUPABASE_URL = 'https://ufubftgtzkwgxkmtjwxc.supabase.co';
+var SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmdWJmdGd0emt3Z3hrbXRqd3hjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU3MTM1ODUsImV4cCI6MjA5MTI4OTU4NX0.kaTpQdH3xzSZ6xVoJt9x9HRINWeQzDCsEMn_-HWpafA';
+var supabase = null;
+
+// Load Supabase SDK dynamically
+(function() {
+  var s = document.createElement('script');
+  s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js';
+  s.onload = function() {
+    try {
+      supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+        auth: { persistSession: true, autoRefreshToken: true }
+      });
+      checkSession();
+    } catch(e) {
+      console.error('Supabase init error:', e);
+    }
+  };
+  s.onerror = function() { console.error('Failed to load Supabase SDK'); };
+  document.head.appendChild(s);
+})();
+
+function checkSession() {
+  supabase.auth.getSession().then(function(res) {
+    if (res.data && res.data.session) {
+      onLoggedIn(res.data.session.user);
+    }
+  });
+  // Listen for auth changes (e.g. Google redirect)
+  supabase.auth.onAuthStateChange(function(event, session) {
+    if (session && session.user) onLoggedIn(session.user);
+  });
+}
+
+function onLoggedIn(user) {
+  var meta = user.user_metadata || {};
+  profileData.name = meta.full_name || meta.name || user.email || '用戶';
+  profileData.email = user.email || '';
+  if (meta.avatar_url) {
+    var img = document.getElementById('avatarImg');
+    if (img) { img.src = meta.avatar_url; img.style.display = 'block'; document.getElementById('avatarEmoji').style.display = 'none'; }
+  }
+  updateProfileUI();
+  // 從資料庫載入儲存的身體數據
+  loadProfileFromDB(user.id);
+  // 判斷是否第一次設定
+  var isNew = !localStorage.getItem('qs_setup_done_' + user.id);
+  showScreen(isNew ? 'setup' : 'home');
+}
+
+function markSetupDone() {
+  supabase.auth.getUser().then(function(r) {
+    if (r.data && r.data.user) localStorage.setItem('qs_setup_done_' + r.data.user.id, '1');
+  });
+}
+
+// Auth mode toggle
+var authMode = 'login';
+function switchAuth(mode) {
+  authMode = mode;
+  var isReg = mode === 'register';
+  document.getElementById('tabLogin').style.background = isReg ? 'transparent' : 'white';
+  document.getElementById('tabLogin').style.color = isReg ? 'var(--text-mid)' : 'var(--text-dark)';
+  document.getElementById('tabRegister').style.background = isReg ? 'white' : 'transparent';
+  document.getElementById('tabRegister').style.color = isReg ? 'var(--text-dark)' : 'var(--text-mid)';
+  document.getElementById('authRegisterExtra').style.display = isReg ? 'block' : 'none';
+  document.getElementById('authSubmitBtn').textContent = isReg ? '註冊帳號' : '登入';
+  document.getElementById('authSwitchHint').innerHTML = isReg ? '已有帳號？<span style="color:var(--accent);">立即登入</span>' : '還沒有帳號？<span style="color:var(--accent);">立即註冊</span>';
+  document.getElementById('authSwitchHint').onclick = function() { switchAuth(isReg ? 'login' : 'register'); };
+  hideAuthError();
+}
+
+function showAuthError(msg) {
+  var el = document.getElementById('authError');
+  el.textContent = msg; el.style.display = 'block';
+}
+function hideAuthError() { document.getElementById('authError').style.display = 'none'; }
+
+function setAuthLoading(show) {
+  document.getElementById('authLoading').style.display = show ? 'block' : 'none';
+  document.getElementById('authBox').style.display = show ? 'none' : 'block';
+}
+
+function submitAuth() {
+  if (!supabase) {
+    showAuthError('正在連線中，請稍候 2 秒再試...');
+    setTimeout(function(){ hideAuthError(); }, 2000);
+    return;
+  }
+  var email = document.getElementById('authEmail').value.trim();
+  var pw = document.getElementById('authPassword').value;
+  if (!email || !pw) { showAuthError('請填入 Email 和密碼'); return; }
+  if (pw.length < 8) { showAuthError('密碼至少需要 8 位數'); return; }
+  setAuthLoading(true);
+
+  if (authMode === 'register') {
+    var name = document.getElementById('authName').value.trim() || email.split('@')[0];
+    supabase.auth.signUp({ email: email, password: pw, options: { data: { full_name: name } } }).then(function(r) {
+      setAuthLoading(false);
+      if (r.error) {
+        var msg = r.error.message || '';
+        if (msg.toLowerCase().indexOf('already') > -1 || msg.toLowerCase().indexOf('registered') > -1 || msg.toLowerCase().indexOf('exists') > -1) {
+          showAuthError('這個 Email 已經註冊過了，請直接登入');
+          document.getElementById('authError').style.color = '#d06060';
+          // 自動切換到登入模式
+          setTimeout(function(){ switchAuth('login'); }, 1500);
+        } else {
+          showAuthError('註冊失敗：' + msg);
+        }
+        return;
+      }
+      // Supabase 有時對已存在的 email 不回 error，而是回空 session
+      if (r.data && r.data.user && !r.data.session && r.data.user.identities && r.data.user.identities.length === 0) {
+        showAuthError('這個 Email 已經註冊過了，請直接登入');
+        document.getElementById('authError').style.color = '#d06060';
+        setTimeout(function(){ switchAuth('login'); }, 1500);
+        return;
+      }
+      if (r.data && r.data.user && r.data.session) {
+        onLoggedIn(r.data.user);
+      } else {
+        document.getElementById('authError').style.color = 'var(--accent)';
+        showAuthError('✅ 註冊成功！請到 Email 收取確認信後再登入');
+      }
+    }).catch(function(e) {
+      setAuthLoading(false);
+      showAuthError('發生錯誤，請再試一次');
+    });
+
+  } else {
+    supabase.auth.signInWithPassword({ email: email, password: pw }).then(function(r) {
+      setAuthLoading(false);
+      if (r.error) {
+        var msg = r.error.message || '';
+        if (msg.toLowerCase().indexOf('invalid') > -1 || msg.toLowerCase().indexOf('credentials') > -1) {
+          showAuthError('Email 或密碼錯誤，請重新輸入');
+        } else if (msg.toLowerCase().indexOf('confirm') > -1 || msg.toLowerCase().indexOf('verified') > -1) {
+          showAuthError('請先到 Email 收取確認信並點擊連結');
+        } else {
+          showAuthError('登入失敗，請再試一次');
+        }
+        return;
+      }
+      onLoggedIn(r.data.user);
+    }).catch(function(e) {
+      setAuthLoading(false);
+      showAuthError('發生錯誤，請再試一次');
+    });
+  }
+}
+
+function loginWithGoogle() {
+  if (!supabase) {
+    alert('正在連線中，請稍候 2 秒再試');
+    return;
+  }
+  supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: window.location.href }
+  }).catch(function(e) {
+    alert('Google 登入失敗，請稍後再試');
+  });
+}
+
+function showPhoneLogin() {
+  document.getElementById('authBox').style.display = 'none';
+  document.getElementById('phonePanel').style.display = 'block';
+}
+function showEmailLogin() {
+  document.getElementById('phonePanel').style.display = 'none';
+  document.getElementById('authBox').style.display = 'block';
+}
+
+function sendOTP() {
+  if (!supabase) { alert('連線中，請稍候再試'); return; }
+  var country = document.getElementById('phoneCountry').value;
+  var num = document.getElementById('phoneNumber').value.trim().replace(/^0/, '');
+  var full = country + num;
+  supabase.auth.signInWithOtp({ phone: full }).then(function(r) {
+    if (r.error) { alert('發送失敗：' + r.error.message); return; }
+    document.getElementById('otpPanel').style.display = 'block';
+    alert('驗證碼已發送到 ' + full);
+  });
+}
+
+function verifyOTP() {
+  if (!supabase) return;
+  var country = document.getElementById('phoneCountry').value;
+  var num = document.getElementById('phoneNumber').value.trim().replace(/^0/, '');
+  var full = country + num;
+  var token = document.getElementById('otpCode').value.trim();
+  supabase.auth.verifyOtp({ phone: full, token: token, type: 'sms' }).then(function(r) {
+    if (r.error) { alert('驗證碼錯誤，請重新輸入'); return; }
+    onLoggedIn(r.data.user);
+  });
+}
+
+// Override logout to use Supabase
+function confirmLogout() {
+  if (confirm('確定要登出嗎？')) {
+    if (supabase) supabase.auth.signOut();
+    profileData = { name:'', email:'', height:0, weight:0, muscle:0, fatPct:0, goal:'減脂瘦身' };
+    var img = document.getElementById('avatarImg');
+    img.src=''; img.style.display='none';
+    document.getElementById('avatarEmoji').style.display='';
+    document.getElementById('authEmail').value = '';
+    document.getElementById('authPassword').value = '';
+    hideAuthError();
+    switchAuth('login');
+    updateProfileUI();
+    showScreen('welcome');
+  }
+}
+
+// Override startApp to mark setup done
+var _origStartApp = startApp;
+function startApp() {
+  // Safe markSetupDone - won't block if supabase not ready
+  try {
+    if (supabase) {
+      supabase.auth.getUser().then(function(r) {
+        if (r.data && r.data.user) {
+          localStorage.setItem('qs_setup_done_' + r.data.user.id, '1');
+        }
+      });
+    }
+  } catch(e) {}
+  _origStartApp();
+}
+</script>
+</body>
+</html>
